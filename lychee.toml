@@ -15,4 +15,5 @@ exclude = [
   "^https://www\\.tweedekamer\\.nl",           # bot-sensitive download endpoints (cited by document number)
   "^https://www\\.rijksoverheid\\.nl",         # bot-sensitive (mirror copies, cited by date)
   "^https://www\\.computable\\.nl",            # bot-blocks / paywalled press host
+  "^https://ieu-monitoring\\.com",             # slow host; times out for the CI link checker (mirror copies)
 ]
