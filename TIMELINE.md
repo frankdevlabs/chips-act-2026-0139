@@ -10,7 +10,7 @@
 |---|---|---|
 | 2025-09-05 | **Public consultation / call for evidence on a Chips Act 2.0 opens** (12 weeks, "Have Your Say" portal) | [Commission policy page](https://digital-strategy.ec.europa.eu/en/policies/chips-act-2) |
 | 2025-09-29 | **Semicon Coalition Declaration** — ministers of all 27 Member States call for a reinforced, forward-looking Chips Act 2.0 | [Commission news](https://digital-strategy.ec.europa.eu/en/news/semicon-coalition-calls-reinforced-chips-act) |
-| 2025-10-20 | **Commission Work Programme 2026** schedules a new Chips Act (and CADA) for Q1 2026 | [Commission](https://commission.europa.eu/strategy-and-policy/strategic-planning/commission-work-programme_en) |
+| 2025-10-20 | **Commission Work Programme 2026** schedules a new Chips Act (and CADA) for Q1 2026 | [Commission](https://commission.europa.eu/strategy-and-policy/strategy-documents/commission-work-programme_en) |
 
 ## 2026
 
