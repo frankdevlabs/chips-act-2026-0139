@@ -2,18 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-> **Built from the EU legislative-tracker template.** The file this repo follows is defined once in
-> [`tracker.yaml`](tracker.yaml); the `<PLACEHOLDER>` tokens below are filled from it by
-> `python3 bootstrap.py`. Starting a fresh file? Read `SETUP.md` first.
+> **Built from the [EU legislative-tracker template](https://github.com/frankdevlabs/eu-legislative-tracker-template).**
+> The file this repo follows is defined once in [`tracker.yaml`](tracker.yaml); identity values in the
+> static docs are filled from it by `python3 bootstrap.py` (safe to re-run after editing tracker.yaml).
 
 ## What this repo is
 
 A personal, open **legislative tracker** — not a software project. It follows one EU file:
-**<FILE-ID>**, the Commission's *<SHORT-NAME>* proposal **<PROPOSAL-ID> final** (<PROPOSAL-DATE>)
-on the strand: <STRAND>. (These facts come from [`tracker.yaml`](tracker.yaml).)
+**2026/0139 (COD)**, the Commission's *Chips Act 2.0* proposal **COM(2026) 504 final** (2026-06-03)
+on the strand: Union semiconductor ecosystem — Chips for Europe Initiative 2.0 (Grand Challenges, Demand Accelerators, chip innovation procurement), strategic projects and fast-track permitting (≤12 months), European Semiconductor Regions of Excellence, supply-chain monitoring and crisis response, European Semiconductor Board. (These facts come from [`tracker.yaml`](tracker.yaml).)
 
-**Scope guard:** this repo tracks `<FILE-ID>` **only**. It is *not* `<KEEP-APART-ID>`
-(<KEEP-APART-NOTE>) — a separate file. Keep them apart. The authoritative scope is
+**Scope guard:** this repo tracks `2026/0139 (COD)` **only**. It is *not* `2026/0138 (COD)`
+(Cloud and AI Development Act (CADA, COM(2026) 502) — the other legislative half of the same Tech Sovereignty Package; tracked in its own sibling repo) — a separate file. Keep them apart. The authoritative scope is
 [`tracker.yaml`](tracker.yaml) (`file_id` vs `keep_apart`).
 
 There is no build, no app, no test suite. The "code" is Markdown + YAML + three Python skill drivers.
@@ -31,9 +31,9 @@ The repo deliberately separates three layers so links stay stable as the file ev
 `extracts/commission/` is the **base text** (the Commission proposal — the diff baseline).
 `extracts/council/` holds one file-set **per Council compromise version** (`ST-<nnnn>-<yyyy>`),
 structured identically so `git diff` between versions is meaningful. The slices in each set are listed
-in [`tracker.yaml`](tracker.yaml) (`extract_slices`) — for this file: `_gdpr-art3-amendments`,
-`_eprivacy-art5`, `_cyber-art6-9`, `_final-art10-11`, `_recitals` (plus informational cross-ref slices).
-The shipped EXAMPLE set is the Commission baseline + Council `ST-9547-2026`.
+in [`tracker.yaml`](tracker.yaml) (`extract_slices`) — for this file they follow COM(2026) 504's own
+Chapter/Section groupings (`_general-provisions-art1-2` … `_recitals`). The **Commission baseline is
+transcribed** (12 files, anchors `article-N`/`recital-N`); no Council compromise text exists yet.
 
 ## Single sources of truth (don't hand-edit downstream copies)
 
@@ -85,7 +85,7 @@ brackets `[...]` preserved as-is, illegible passages `[illegible in source]`. Th
 - **Relative links only** inside the repo — never `github.com/...` absolute URLs (they break on rename/fork/mirror).
 - **Deep-link into `extracts/*.md#anchor`, not `sources/*.pdf#page`** — GitHub's PDF viewer can't anchor to a page.
 - **Document naming:** `<INSTITUTIONAL-ID>_<short-description>_<ISO-date>.<ext>` — stable number first, ISO
-  date last, so chronological sort works (e.g. `ST-9547-2026_council-presidency-compromise_2026-05-21.pdf`).
+  date last, so chronological sort works (e.g. `ST-10094-2026_cover-note-proposal_2026-06-03.pdf`).
 - **Link checking (CI):** `lychee` runs on push/PR/weekly via `.github/workflows/link-check.yml`, configured
   by `lychee.toml`. Internal links are checked strictly; some external hosts (consilium register, EUR-Lex,
   Oeil, LinkedIn) are excluded because they bot-block or 404 for unreleased LIMITE docs.

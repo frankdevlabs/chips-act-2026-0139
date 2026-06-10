@@ -11,7 +11,7 @@ dates and links differ between files.
 
 ## Fixed section order
 
-1. `# Status snapshot — <FILE-ID>` + the **dashboard table** + the not-legal-advice blockquote
+1. `# Status snapshot — 2026/0139 (COD)` + the **dashboard table** + the not-legal-advice blockquote
 2. `## One-line status`
 3. `## Where each institution stands` (the OLP actors)
 4. `## Next milestones to watch`

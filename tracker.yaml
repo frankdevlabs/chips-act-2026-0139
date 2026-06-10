@@ -5,86 +5,76 @@
 # else (CLAUDE.md, README.md, STATUS.md, the skills' scope checks) reads from
 # here or is filled from here by `python3 bootstrap.py`.
 #
-# It ships FILLED IN with file 2025/0360 (COD) — the Digital Omnibus — as a
-# complete worked example, matching the EXAMPLE content elsewhere in the repo.
-# To start a new tracker:
-#   1. Replace every value below with your file's.
-#   2. Run `python3 bootstrap.py` to push the <PLACEHOLDER> tokens into the
-#      static docs (CLAUDE.md, README.md, STATUS.template.md -> STATUS.md).
-#   3. Replace the EXAMPLE-marked content (see SETUP.md).
-# See SETUP.md for the full checklist.
+# This tracker follows file 2026/0139 (COD) — the Chips Act 2.0, part of the
+# European Technological Sovereignty Package (3 June 2026).
 # ============================================================================
 
 # --- Identity ---------------------------------------------------------------
-file_id: "2025/0360 (COD)"                # interinstitutional file number + procedure type
-short_name: "Digital Omnibus (data/cyber)"
-strand: "GDPR, ePrivacy/cookies, P2B, cyber incident-reporting"
+file_id: "2026/0139 (COD)"                # interinstitutional file number + procedure type
+short_name: "Chips Act 2.0"
+strand: "Union semiconductor ecosystem — Chips for Europe Initiative 2.0 (Grand Challenges, Demand Accelerators, chip innovation procurement), strategic projects and fast-track permitting (≤12 months), European Semiconductor Regions of Excellence, supply-chain monitoring and crisis response, European Semiconductor Board"
 
 proposal:
-  id: "COM(2025) 837"                     # Commission proposal id (without "final")
-  date: "2025-11-19"                      # ISO
-  swd: "SWD(2025) 836"                    # accompanying staff working doc, if any
-  celex: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837"
-  oeil: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
+  id: "COM(2026) 504"                     # Commission proposal id (without "final")
+  date: "2026-06-03"                      # ISO
+  swd: "SWD(2026) 504"                    # accompanying impact assessment (Parts 1/3–3/3; summary = SWD(2026) 505)
+  celex: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0504"
+  oeil: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)"
 
 # Sibling file(s) that are easy to confuse with this one and must NOT be tracked
 # here. Drives the scope-guard text in CLAUDE.md/README and the skills' scope rule.
 keep_apart:
-  - file_id: "2025/0359 (COD)"
-    note: "AI-Act Digital Omnibus — a separate, faster file on the AI Act strand"
+  - file_id: "2026/0138 (COD)"
+    note: "Cloud and AI Development Act (CADA, COM(2026) 502) — the other legislative half of the same Tech Sovereignty Package; tracked in its own sibling repo"
+# The package's two NON-legislative parts (EU Open Source Strategy; Strategic
+# Roadmap for Digitalisation and AI in Energy) are tracked here only where they
+# touch the semiconductor strand (e.g. demand-side links to data centres / AI
+# Gigafactories).
 
-legal_bases: ["Article 16(2) TFEU", "Article 114 TFEU"]
+legal_bases: ["Article 173(3) TFEU", "Article 114 TFEU"]   # per the citations of COM(2026) 504
 
 # Existing laws this file amends/repeals. Drives docs/instruments/ pages.
+# Chips Act 2.0 REPEALS Regulation (EU) 2023/1781 (the 2023 Chips Act) — Art 58,
+# with transitional provisions in Art 59 and a correlation table in Annex VII.
+# NOTE: the SWD(2026) 504/505 cover pages misprint the repealed act as
+# "Regulation (EU) 2023/1782"; the proposal cover page and Art 58 say 2023/1781.
 instruments:
-  - { name: "GDPR", celex: "2016/679" }
-  - { name: "ePrivacy Directive", celex: "2002/58" }
-  - { name: "NIS2 Directive", celex: "2022/2555" }
-  - { name: "P2B Regulation", celex: "2019/1150" }
+  - { name: "European Chips Act (repealed)", celex: "2023/1781" }
 
 # The per-version operative-text file set under extracts/. EACH compromise
 # version gets one file per slice, named ST-<nnnn>-<yyyy>_<slice>.md, so
-# `git diff` between versions lines up. For another file these slices differ —
-# they follow your file's article groupings, not these.
+# `git diff` between versions lines up.
+# Follows COM(2026) 504's own Chapter/Section structure (60 articles, 8 chapters).
 extract_slices:
-  - gdpr-art3-amendments
-  - eprivacy-art5
-  - cyber-art6-9
-  - final-art10-11
+  - general-provisions-art1-2            # Ch I — subject matter, definitions
+  - chips-initiative-art3-12             # Ch II — Chips for Europe Initiative 2.0: objectives, competence centres, Grand Challenges, Demand Accelerators, Demand Forum, chip innovation procurement
+  - manufacturing-capabilities-art13-20  # Ch III s1 — public interest/support, European semiconductor technology initiatives, strategic projects, financing coordination
+  - permitting-art21-25                  # Ch III s2 — fast-track permitting, one-stop shop, single access portal / European Business Wallets
+  - regions-of-excellence-art26-29       # Ch III s3 — European Semiconductor Region of Excellence label, investment plans, network
+  - supply-chain-resilience-art30-32     # Ch III s4 — public procurement, further procurement actions, risk-prone sectors
+  - monitoring-art33-36                  # Ch IV s1 — strategic mapping, B2B supply-chain platform, monitoring and anticipation, key market actors
+  - alerts-crisis-response-art37-43      # Ch IV s2+s3 — alerts/preventive action, crisis stage, emergency toolbox, priority-rated orders, common purchasing
+  - governance-art44-49                  # Ch V — European Semiconductor Board, NCAs, Industrial Alliance for Semiconductors
+  - confidentiality-penalties-art50-54   # Ch VI — confidential information, penalties, limitation periods, right to be heard
+  - delegation-final-provisions-art55-60 # Ch VII+VIII — delegation, comitology, evaluation, repeal of Reg (EU) 2023/1781, transitional, entry into force
   - recitals
-  # 2025/0360 also carries these informational cross-ref slices in some versions:
-  - dataact-art1
-  - sdg-art2
-  - eudpr-art4
 
 # OLP actor skeleton for STATUS.md "Where each institution stands".
 co_legislators:
   council:
-    config: "working party / Antici Group (Simplification)"
+    config: "COMPET.1 secretariat lead (per ST 10094/26 cover note routing: COMPET 666, IND 388, MI 582, RC 13, RECH 258, TELECOM 290, FIN 812, CADREFIN 262, CODEC 1088) — competitiveness/industry working party expected; verify once the Presidency schedules first examination"
   parliament:
-    committees_responsible: ["ITRE", "LIBE"]   # joint, Rule 59
-    committees_opinion: ["IMCO", "JURI"]
+    committees_responsible: []            # not yet appointed; ITRE expected (verify)
+    committees_opinion: []
 
 # Advisory bodies that must be / have been consulted (drives the STATUS advisory table).
-advisory_bodies: ["EDPB-EDPS", "ECB", "EESC", "CoR"]
+advisory_bodies: ["EESC", "CoR"]
 
 # ============================================================================
 # Watchlist — the sources the daily tracker monitors. Consumed by
 # .claude/skills/resolve-tracker-issue (tracker_issues.py joins each flagged
 # "[tracker]" issue to its `affects` list). The same mapping must be mirrored in
-# the cron prompt (~/law-tracker/prompt.md) — keep the two in sync.
-#
-# This ships with a REPRESENTATIVE SUBSET of the 35 sources used for 2025/0360
-# (full list lived in the old data/watchlist.yaml). Replace with your file's
-# sources. Fields per source:
-#   tier        T1 (institutional) | T2 (stakeholder) | T3 (social)
-#   kind        institutional | stakeholder | social
-#   label       human-readable name (matches the issue body "**Source:**")
-#   url         watched URL (T1/T2); omitted for T3 (Bluesky uses handle/did)
-#   handle/did  Bluesky actor (T3 only)
-#   document_id optional join to data/documents.yaml (when the source IS a doc)
-#   affects     downstream files/dirs to review on a substantive hit
-#   notes       fetch quirks / scope rules
+# the cron prompt (~/law-tracker/prompt-chips.md) — keep the two in sync.
 # ============================================================================
 watchlist:
   sources:
@@ -92,50 +82,100 @@ watchlist:
     T1-01:
       tier: T1
       kind: institutional
-      label: "OEIL — Parliament procedure file (HTML)"
-      url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
-      document_id: OEIL-2025-0360
+      label: "OEIL — Parliament procedure file 2026/0139(COD) (HTML)"
+      url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)"
+      document_id: OEIL-2026-0139
       affects: [STATUS.md, TIMELINE.md]
+    T1-02:
+      tier: T1
+      kind: institutional
+      label: "EUR-Lex Cellar — Commission proposal (CELEX 52026PC0504)"
+      url: "https://publications.europa.eu/resource/celex/52026PC0504"
+      document_id: COM-2026-504
+      affects: [extracts/commission/, STATUS.md, TIMELINE.md]
+      notes: "Machine-readable fallback for AWS-WAF-blocked EUR-Lex pages. Base text rarely changes."
     T1-03:
       tier: T1
       kind: institutional
-      label: "EUR-Lex Cellar — Commission proposal (CELEX 52025PC0837)"
-      url: "https://publications.europa.eu/resource/celex/52025PC0837"
-      document_id: COM-2025-837
-      affects: [extracts/commission/, STATUS.md, TIMELINE.md]
-      notes: "Machine-readable fallback for AWS-WAF-blocked EUR-Lex pages. Base text rarely changes."
+      label: "EUR-Lex — Chips Act 2.0 procedure history (HIS page)"
+      url: "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=CELEX:52026PC0504"
+      affects: [STATUS.md, TIMELINE.md]
+      notes: "EUR-Lex bot-blocks (202/WAF); prefer the Cellar endpoint T1-02 when this fails."
+    T1-04:
+      tier: T1
+      kind: institutional
+      label: "Council register — ST 10094/2026 (Chips Act 2.0 cover note / future compromise texts)"
+      url: "https://data.consilium.europa.eu/doc/document/ST-10094-2026-INIT/en/pdf"
+      document_id: ST-10094-2026
+      affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
+      notes: "HIGHEST PRIORITY once Council compromise texts start appearing. LIMITE texts 404 on the live register — fall back to national-parliament records or press mirrors. A new ST version -> transcribe-council-extract skill, then cascade through provisions/positions."
+    T1-05:
+      tier: T1
+      kind: institutional
+      label: "Commission digital-strategy — Chips Act 2.0 policy page"
+      url: "https://digital-strategy.ec.europa.eu/en/policies/chips-act-2"
+      affects: [STATUS.md, TIMELINE.md, docs/commission-proposal.md]
+    T1-06:
+      tier: T1
+      kind: institutional
+      label: "Commission digital-strategy — Chips Act 2.0 proposal library page (proposal, annexes, impact assessment)"
+      url: "https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20"
+      document_id: COM-2026-504
+      affects: [extracts/commission/, sources/, STATUS.md]
+    T1-07:
+      tier: T1
+      kind: institutional
+      label: "EP Legislative Train — Chips Act II"
+      url: "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-chips-act-ii"
+      affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+      notes: "Watch for committee referral + rapporteur appointment (ITRE expected)."
+    T1-08:
+      tier: T1
+      kind: institutional
+      label: "Commission digital-strategy — European Chips Act (2023/1781) policy page"
+      url: "https://digital-strategy.ec.europa.eu/en/policies/european-chips-act"
+      affects: [docs/instruments/, STATUS.md]
+      notes: "The act this proposal repeals — watch for transition/continuity signals (Chips JU, first-of-a-kind facilities). No EESC opinion page exists yet for Chips Act 2.0 (checked 2026-06-10); add one as a source when it appears."
     T1-09:
       tier: T1
       kind: institutional
-      label: "Austrian Parliament — EU dossier (hosts Council LIMITE texts)"
-      url: "https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322"
-      affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
-      notes: "HIGHEST PRIORITY for new Council LIMITE compromise texts. A new ST version -> hand off to the transcribe-council-extract skill, then cascade through provisions/positions."
-    T1-13:
+      label: "Officiële bekendmakingen — dossier 22112 (BNC-fiches; NL government position on new Commission proposals)"
+      url: "https://zoek.officielebekendmakingen.nl/dossier/22112"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+      notes: "Watch for the BNC-fiche on Chips Act 2.0 / CADA (expected ~6 weeks after 2026-06-03)."
+    T1-10:
       tier: T1
       kind: institutional
-      label: "EDPB–EDPS Joint Opinion"
-      url: "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en"
-      document_id: EDPB-EDPS-JO-2-2026
-      affects: [docs/advisory/edpb-edps-jo-2-2026.md, docs/institutional-positions.md]
-    # --- Tier 2: NGO / journalism / law firm -------------------------------
+      label: "Officiële bekendmakingen — dossier 21501-33 (Telecomraad)"
+      url: "https://zoek.officielebekendmakingen.nl/dossier/21501-33"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    T1-11:
+      tier: T1
+      kind: institutional
+      label: "digitaleoverheid.nl — news (NL digital-government signals)"
+      url: "https://www.digitaleoverheid.nl/nieuws/"
+      affects: [docs/member-state-positions.md, docs/stakeholders.md]
+    # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
       kind: stakeholder
-      label: "noyb — RSS"
-      url: "https://noyb.eu/en/rss"
+      label: "ESIA (European Semiconductor Industry Association) — news"
+      url: "https://www.eusemiconductors.eu/esia/news"
       affects: [docs/stakeholders.md, docs/fault-lines.md]
+      notes: "EU semiconductor industry voice — drove the 2025 Chips Act 2.0 advocacy alongside the Semicon Coalition."
     T2-02:
       tier: T2
       kind: stakeholder
-      label: "EDRi — feed"
-      url: "https://edri.org/feed/"
-      affects: [docs/stakeholders.md, docs/fault-lines.md]
-    # --- Tier 3: Bluesky watchlist -----------------------------------------
-    T3-02:
-      tier: T3
-      kind: social
-      label: "Bluesky — noyb.eu"
-      handle: "noyb.eu"
-      did: "did:plc:6tig4nnvqut4jhyxmvqbxbag"
-      affects: [docs/stakeholders.md, docs/fault-lines.md]
+      label: "Bits&Chips — NL/EU semiconductor sector news"
+      url: "https://bits-chips.com/"
+      affects: [docs/stakeholders.md]
+      notes: "NL sector voice on semiconductors (ASML/NXP ecosystem, Brainport)."
+    T2-03:
+      tier: T2
+      kind: stakeholder
+      label: "INSIGHT EU MONITORING — RSS"
+      url: "https://ieu-monitoring.com/feed/"
+      affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+      notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results. Filter on Chips Act / Competitiveness Council / tech sovereignty keywords."
+    # --- Tier 3: social ------------------------------------------------------
+    # none yet

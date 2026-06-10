@@ -1,19 +1,20 @@
-# <SHORT-NAME> Tracker — File <FILE-ID>
+# Chips Act 2.0 Tracker — File 2026/0139 (COD)
 
-A personal, open tracker for the EU **<SHORT-NAME>** proposal. Strand: <STRAND>.
+A personal, open tracker for the EU **Chips Act 2.0** proposal. Strand: Union semiconductor ecosystem — Chips for Europe Initiative 2.0 (Grand Challenges, Demand Accelerators, chip innovation procurement), strategic projects and fast-track permitting (≤12 months), European Semiconductor Regions of Excellence, supply-chain monitoring and crisis response, European Semiconductor Board.
 
-> **Built from the EU legislative-tracker template.** The file this repo follows is set
-> once in [`tracker.yaml`](tracker.yaml); `python3 bootstrap.py` fills the `<PLACEHOLDER>` tokens in
-> this README, `CLAUDE.md` and `STATUS.md`. Some pages still carry **EXAMPLE** content from the
-> reference file `2025/0360 (COD)` — replace it per `SETUP.md`.
+> **Built from the [EU legislative-tracker template](https://github.com/frankdevlabs/eu-legislative-tracker-template).**
+> The file this repo follows is set once in [`tracker.yaml`](tracker.yaml).
 
-> **Scope.** This repo tracks **one file only: `<FILE-ID>`** — Commission proposal
-> **<PROPOSAL-ID> final** of <PROPOSAL-DATE>.
-> It is **not** `<KEEP-APART-ID>` (<KEEP-APART-NOTE>), which is a separate proposal on a separate
+> **Scope.** This repo tracks **one file only: `2026/0139 (COD)`** — Commission proposal
+> **COM(2026) 504 final** of 2026-06-03.
+> It is **not** `2026/0138 (COD)` (Cloud and AI Development Act (CADA, COM(2026) 502) — the other legislative half of the same Tech Sovereignty Package; tracked in its own sibling repo), which is a separate proposal on a separate
 > track. See [`tracker.yaml`](tracker.yaml) (`file_id` vs `keep_apart`) and `STATUS.md`
 > for why the two are kept apart.
 
-**Current status (high level):** see the full snapshot in **`STATUS.md`**.
+**Current status (high level):** Proposal tabled 3 June 2026 (Tech Sovereignty Package); Council at
+working-party start (cover note ST 10094/26, COMPET.1 routing); European Parliament at pre-referral —
+no committee, no rapporteur; no compromise text, no general approach, no trilogue. Full snapshot in
+**[`STATUS.md`](STATUS.md)**.
 
 ---
 
@@ -52,7 +53,7 @@ The repo deliberately separates three layers so that links stay stable over time
    paths survive renames, forks and a move to a private mirror.
 2. **Deep-link into extracts, not PDFs.** GitHub's PDF viewer does not support reliable
    `#page=` anchors, so to point at a specific article use the markdown extract's heading anchor,
-   e.g. `extracts/council/ST-<nnnn>-<yyyy>_gdpr-art3-amendments.md#point-8--article-33-breach-notification`.
+   e.g. `extracts/commission/COM-2026-504_permitting-art21-25.md#article-21`.
 3. **Source PDFs are committed in `sources/`.** The Council compromise texts (incl. LIMITE ones)
    are hosted in this repo for transparency and offline diffing; the register also records the
    document number, the Council register reference, and any national-parliament record or public
@@ -64,7 +65,7 @@ The repo deliberately separates three layers so that links stay stable over time
 
 `<INSTITUTIONAL-ID>_<short-description>_<ISO-date>.<ext>` — the stable document number first,
 ISO date last, so chronological sort always works
-(e.g. `ST-9547-2026_council-presidency-compromise_2026-05-21`).
+(e.g. `ST-10094-2026_cover-note-proposal_2026-06-03`).
 
 ## Contributing / adding a document
 
@@ -78,8 +79,9 @@ text) hands transcription to the `transcribe-council-extract` skill for a matchi
 
 ## Reusing this template for another EU file
 
-This repo is a **GitHub template**. To track a different file: *Use this template* → fill
-[`tracker.yaml`](tracker.yaml) → run `python3 bootstrap.py` → follow `SETUP.md`.
+This repo was built from the [EU legislative-tracker template](https://github.com/frankdevlabs/eu-legislative-tracker-template).
+To track a different file: *Use this template* → fill `tracker.yaml` → run `python3 bootstrap.py` →
+follow the template's `SETUP.md`.
 
 ## Disclaimer & licence
 

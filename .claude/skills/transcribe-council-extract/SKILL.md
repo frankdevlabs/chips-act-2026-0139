@@ -101,11 +101,11 @@ rendering.
    line, the date, and the meeting (e.g. AGS = Antici Group (Simplification)). The
    cover's text layer is usually empty (image-only), so you *must* read its image.
 
-5. Read the matching **reference version's** five files to mirror structure,
-   `<a id="...">` anchors and header style, e.g.
-   [`../../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md`](../../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md)
-   and its siblings (`_eprivacy-art5.md`, `_cyber-art6-9.md`, `_final-art10-11.md`,
-   `_recitals.md`).
+5. Read the matching **reference version's** files to mirror structure,
+   `<a id="...">` anchors and header style: the `extracts/commission/COM-2026-504_*`
+   baseline set, or — for a second+ compromise text — the previous
+   `extracts/council/ST-<nnnn>-<yyyy>_*` set (one file per `tracker.yaml`
+   `extract_slices`).
 
 6. Write the `extracts/council/ST-<nnnn>-<yyyy>_*.md` files (one per `tracker.yaml`
    `extract_slices`) per the guide: header blockquote (doc no. + LIMITE + date + meeting +

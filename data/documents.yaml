@@ -1,14 +1,10 @@
 # Document register — the SINGLE source of truth for every official document on the file.
 # sources/README.md is its *rendered* table (edit this YAML, then mirror the table; never the table alone).
 #
-# TEMPLATE NOTE: the rows below are EXAMPLE entries from the reference file 2025/0360 (COD),
-# kept to show the schema and every field in use. Replace them with your file's documents
-# (use the `register-document` skill — it appends here and renders sources/README.md).
-#
 # Field reference:
-#   id            stable institutional id (COM-…, ST-…, WK-…, CM-…, OEIL-…, EDPB-EDPS-…, ECB-…, EESC-…)
+#   id            stable institutional id (COM-…, ST-…, WK-…, CM-…, OEIL-…, EESC-…)
 #   title         quoted descriptive title
-#   body          institution: Commission | Council | Parliament | EDPB-EDPS | ECB | EESC | <Member State> | …
+#   body          institution: Commission | Council | Parliament | EESC | CoR | <Member State> | …
 #   date          ISO YYYY-MM-DD
 #   limite        bool — true for Council LIMITE documents
 #   url           authoritative URL (also: celex)
@@ -21,50 +17,112 @@
 #   leading_service / mandatory_consultees / notes   prose context (notes is a `>-` block)
 
 documents:
-  - id: COM-2025-837
-    title: "Digital Omnibus — proposal for a Regulation (digital simplification: GDPR, ePrivacy, P2B, cyber)"
+  - id: COM-2026-504
+    title: "Chips Act 2.0 — proposal for a Regulation on a framework of measures for strengthening the Union's semiconductor ecosystem, repealing Regulation (EU) 2023/1781"
     body: Commission
-    date: 2025-11-19
+    date: 2026-06-03
     limite: false
-    url: https://eur-lex.europa.eu/procedure/EN/2025_360
-    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837
-    local: sources/commission/COM-2025-837_proposal_2025-11-19.docx
-    local_annex: sources/commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx
-    leading_service: "Lead service DG CNECT; political leads EVP Virkkunen and Commissioner McGrath."
-    mandatory_consultees: European Committee of the Regions, European Central Bank, European Economic and Social Committee
+    url: https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20
+    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0504
+    local: sources/commission/COM-2026-504_proposal_2026-06-03.pdf
+    local_annex: sources/commission/COM-2026-504_annexes-1-7_2026-06-03.pdf
+    leading_service: "Lead service DG CNECT; political leads President von der Leyen and EVP Virkkunen (Tech Sovereignty, Security and Democracy)."
+    mandatory_consultees: European Economic and Social Committee, European Committee of the Regions
     notes: >-
-      EXAMPLE row. The proposal this reference repo tracks. Accompanied by SWD(2025) 836; base-text
-      operative extracts in extracts/commission/. Annex I = correlation tables.
+      The proposal this repo tracks — one of the two legislative halves of the European
+      Technological Sovereignty Package (presented 3 June 2026 together with CADA, the EU Open
+      Source Strategy and the Strategic Roadmap for Digitalisation and AI in Energy). 60 articles in
+      eight Chapters; legal bases Art 173(3) + 114 TFEU; Text with EEA relevance. Repeals and
+      replaces Regulation (EU) 2023/1781 (Art 58; correlation table in Annex VII). Accompanied by
+      SEC(2026) 504, SWD(2026) 504 (impact assessment, 3 parts) and SWD(2026) 505 (executive
+      summary). Annexes 1–7 committed separately (incl. Annex I Initiative actions, Annex II
+      priority areas for strategic projects, Annex V critical sectors).
 
-  - id: EDPB-EDPS-JO-2-2026
-    title: "EDPB–EDPS Joint Opinion 2/2026 on the Digital Omnibus"
-    body: EDPB-EDPS
-    date: 2026-02-10
+  - id: SWD-2026-504
+    title: "Impact assessment report accompanying the Chips Act 2.0 proposal (Parts 1–3)"
+    body: Commission
+    date: 2026-06-03
     limite: false
-    url: https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en
-    local: sources/edpb-edps/EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf
+    url: https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20
+    local: sources/commission/SWD-2026-504_impact-assessment-part1_2026-06-03.pdf
+    local_part2: sources/commission/SWD-2026-504_impact-assessment-part2_2026-06-03.pdf
+    local_part3: sources/commission/SWD-2026-504_impact-assessment-part3_2026-06-03.pdf
     notes: >-
-      EXAMPLE row (advisory-body opinion). Digest: docs/advisory/edpb-edps-jo-2-2026.md.
+      Three-part impact assessment. Received a negative Regulatory Scrutiny Board opinion on
+      28 January 2026 and a positive opinion with reservations on 30 March 2026. The executive
+      summary carries its own number, SWD(2026) 505 (registered separately). NOTE: the SWD cover
+      pages misprint the repealed act as "Regulation (EU) 2023/1782" — the proposal itself
+      (and Art 58) correctly say 2023/1781.
 
-  - id: ST-9547-2026
-    title: "Presidency revised compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
+  - id: SWD-2026-505
+    title: "Executive summary of the impact assessment report accompanying the Chips Act 2.0 proposal"
+    body: Commission
+    date: 2026-06-03
+    limite: false
+    url: https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20
+    local: sources/commission/SWD-2026-505_impact-assessment-summary_2026-06-03.pdf
+
+  - id: ROADMAP-2026-04-23
+    title: "Joint Roadmap 'One Europe, One Market' (EP / Council / Commission)"
+    body: Commission
+    date: 2026-04-23
+    limite: false
+    url: https://commission.europa.eu/document/download/5445de81-9481-4335-9902-9756159ba614_en?filename=one-europe-one-market-roadmap.pdf
+    local: sources/commission/ROADMAP-2026-04-23_one-europe-one-market_2026-04-23.pdf
+    notes: >-
+      Indicative inter-institutional political planning: names a target window of ~Q2 2027 for
+      Chips Act 2.0 (~Q4 2027 for CADA). Not a legal deadline — no OJ publication or
+      entry-into-force commitment. Joint EP/Council/Commission document, filed under commission/
+      for convenience.
+
+  - id: IP-26-1187
+    title: "Commission press release presenting the European Technological Sovereignty Package"
+    body: Commission
+    date: 2026-06-03
+    limite: false
+    access: cite-only
+    url: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187
+    notes: >-
+      Cite-only (presscorner; no file committed). Companion factsheet: fs_26_1189
+      (https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1189).
+
+  - id: ST-10094-2026
+    title: "Cover note — transmission of COM(2026) 504 final to the Council (COMPET 666, IND 388, MI 582, RC 13, RECH 258, TELECOM 290, FIN 812, CADREFIN 262, CODEC 1088)"
     body: Council
-    date: 2026-05-21
-    limite: true
-    access: public-via-national-parliament
-    register: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf   # 404 until released
-    national_parliament: https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322
-    local: sources/council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf
-    notes: >-
-      EXAMPLE row (Council LIMITE compromise text). Operative text in extracts/council/ (the shipped
-      example set). Shows the LIMITE provenance fields (register + national_parliament + access).
-
-  - id: OEIL-2025-0360
-    title: "Procedure file 2025/0360(COD) — Simplification of the digital legislative framework"
-    body: Parliament
-    date: 2026-01-19
+    date: 2026-06-03
     limite: false
-    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
+    url: https://data.consilium.europa.eu/doc/document/ST-10094-2026-INIT/en/pdf
+    local: sources/council/ST-10094-2026_cover-note-proposal_2026-06-03.pdf
+    local_add1: sources/council/ST-10094-2026-ADD-1_cover-note-annexes_2026-06-03.pdf
     notes: >-
-      EXAMPLE row (Parliament procedure file — link-only, no committed file). Joint committee
-      responsible (Rule 59): ITRE + LIBE; opinions JURI + IMCO.
+      Secretariat-General transmission of the proposal to the Council (received and circulated
+      3 June 2026; COMPET.1 secretariat). ADD 1 carries the annexes. The COMPET-first routing
+      points to a competitiveness/industry working party as lead — verify at first examination.
+      Future Presidency compromise texts on this file will appear as new ST numbers — watch this
+      register stream.
+
+  - id: OEIL-2026-0139
+    title: "Procedure file 2026/0139(COD) — Chips Act 2.0"
+    body: Parliament
+    date: 2026-06-03
+    limite: false
+    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)
+    notes: >-
+      Parliament procedure file — link-only, no committed file. Committee referral and rapporteur
+      appointment pending (ITRE expected).
+
+  - id: NL-NONPAPER-2026-04-17
+    title: "Non-paper by the Netherlands — 'An Integrated Approach for the EU Tech Sovereignty Package' (Sovereign Tech Stack)"
+    body: Netherlands
+    date: 2026-04-17
+    limite: false
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D18815
+    mirror: https://www.rijksoverheid.nl/documenten/2026/04/20/nonpaperbythenetherlandsontheeutechsovereigntypackage
+    local: sources/member-states/NL-NONPAPER-2026-04-17_integrated-approach-tech-sovereignty_2026-04-17.pdf
+    notes: >-
+      Dated The Hague, 17 April 2026; tabled around the informal Telecom Council of 20 April 2026
+      (Kamerstuk series 21501-33; Tweede Kamer document 2026D18815). Argues for organising the
+      package around a "Sovereign Tech Stack" with a demand–supply loop across the stack layers
+      (raw materials/hardware/infrastructure up to software, data and applications) and open source
+      as cross-cutting enabler. Covers the whole package, semiconductors included — same document
+      registered in the sibling CADA tracker.

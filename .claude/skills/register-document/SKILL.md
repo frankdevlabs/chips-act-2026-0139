@@ -44,8 +44,8 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
    - If the source is a PDF whose text won't extract via WebFetch, download it and **Read the PDF
      directly** to confirm the substance before summarising (don't rely on the landing-page blurb).
    - Apply the **scope rule** from [`tracker.yaml`](../../../tracker.yaml): in-scope only if it concerns
-     this repo's file (`file_id`), not a `keep_apart` sibling. (For 2025/0360 the easy confusion is the
-     AI-Act file 2025/0359; for foreign-language sources check the file number, not just the topic.)
+     this repo's file (`file_id`), not a `keep_apart` sibling. (For 2026/0139 the easy confusion is its package sibling
+     CADA, file 2026/0138 / COM(2026) 502; for foreign-language sources check the file number, not just the topic.)
 
 2. **Pick the source folder by `body`** and commit the file there with the repo's filename
    convention `<ID>_<slug>_<ISO-date>.<ext>` (download with `curl -sL -A "Mozilla/5.0" <url> -o <path>`;
@@ -53,8 +53,8 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
 
    | `body` | folder | example filename |
    |---|---|---|
-   | Commission | `sources/commission/` | `COM-2025-837_proposal_2025-11-19.docx` |
-   | Council (ST / WK / CM) | `sources/council/` | `ST-9547-2026_council-presidency-compromise_2026-05-21.pdf` |
+   | Commission | `sources/commission/` | `COM-2026-504_proposal_2026-06-03.pdf` |
+   | Council (ST / WK / CM) | `sources/council/` | `ST-10094-2026_cover-note-proposal_2026-06-03.pdf` |
    | Parliament | `sources/parliament/` | (often link-only — no committed file) |
    | EDPB-EDPS | `sources/edpb-edps/` | `EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf` |
    | ECB / EESC / CoR (advisory) | `sources/advisory/` | `ECB-CON-2026-9_opinion_2026-03-10.pdf` |
