@@ -40,6 +40,12 @@ tabled around the informal Telecom Council of 20 April 2026) —
   predates the package presentation and contains no Chips Act 2.0 appraisal.
 - The NL semiconductor ecosystem (ASML/NXP, Brainport) makes this delegation a natural protagonist
   on this file — sector signals are tracked in [`stakeholders.md`](stakeholders.md).
+- The NL digital-government portal published a package announcement
+  ("Meer digitale autonomie met het Tech Sovereignty Package", 5 June 2026,
+  [digitaleoverheid.nl](https://www.digitaleoverheid.nl/nieuws/meer-digitale-autonomie-met-het-tech-sovereignty-package/))
+  welcoming the Commission package and naming **Chips Act 2.0** / advanced semiconductors as one of
+  its four elements. A government-communication signal only — it restates the Commission framing and
+  the Parliament/Council next step, adding no new national position beyond the 17 April 2026 non-paper.
 
 ## Other delegations
 
