@@ -167,6 +167,22 @@ watchlist:
         of scope — only questions about the EU Chips Act legislation itself are a genuine hit; flag others as
         'semiconductor-policy, not the file'. ~19 feed items, mostly that broader debate. kv-tk-…=question,
         ah-tk-…=answer. Filter on the <description> line.
+    T1-13:
+      tier: T1
+      kind: institutional
+      label: "EP ITRE committee — latest documents (Chips Act 2.0 draft opinion/report/amendments)"
+      url: "https://www.europarl.europa.eu/committees/en/itre/documents/latest-documents"
+      affects: [extracts/parliament/, docs/provisions/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+      notes: >-
+        ITRE is the EXPECTED lead committee, but the file is PRE-REFERRAL (no rapporteur appointed yet) —
+        watch for committee referral + rapporteur appointment, then for the first ITRE committee text
+        (draft opinion / draft report / tabled amendments). Confirm any hit concerns THIS file
+        2026/0139 (COD) and not the keep-apart package sibling CADA 2026/0138 (COD) — check the
+        document's own interinstitutional reference and the rapporteur, not just the topic. doceo
+        (www.europarl.europa.eu/doceo/...) bot-blocks the operative text (HTTP 202 / AWS-WAF) for both
+        PDF and DOCX — the listing page confirms existence/metadata only; obtain the text via a browser
+        download or non-WAF mirror. Hand a confirmed hit to the parliament-text playbook
+        (resolve-tracker-issue) → transcribe-parliament-extract.
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2

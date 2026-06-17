@@ -14,6 +14,9 @@
 #   local / local_cover / local_annex / local_init / local_add1…  committed file path(s)
 #   access        omit = fully public; else cite-only | screenshot-only | not-public |
 #                 public-released | public-via-register | public-via-journalist | public-via-national-parliament
+#   lead_source   (`>-` block, optional) credit the lead that surfaced the document when it reached the
+#                 repo via something other than its own institutional feed (e.g. a T3 Bluesky tip): who/what
+#                 flagged it, the watchlist code, the tip URL + date, one clause on why it counts as the lead
 #   leading_service / mandatory_consultees / notes   prose context (notes is a `>-` block)
 
 documents:
