@@ -29,7 +29,7 @@ co-legislator position of any kind exists yet.
 - **Latest act:** COM(2026) 504 final + Annexes 1–7 + SWD(2026) 504/505 — [digest](docs/commission-proposal.md) · [library page](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20)
 - **Owner:** DG CNECT; political leads President von der Leyen and EVP Virkkunen (Tech Sovereignty, Security and Democracy)
 - **Position:** Defends a full replacement of the 2023 Chips Act: Chips for Europe Initiative 2.0 (Grand Challenges, Demand Accelerators, Demand Forum, chip innovation procurement), strategic projects with fast-track permitting (≤12 months), a Union-based **open foundry for advanced semiconductor manufacturing** treated "with the highest priority" (Art 19; pilot production envisaged 2030–2033), a European Semiconductor Regions of Excellence label, strengthened supply-chain monitoring/crisis response and a continued European Semiconductor Board — [fault lines](docs/fault-lines.md)
-- **Next:** Implementation groundwork via the Chips Joint Undertaking; package-level: call for AI Gigafactories expected July 2026 (demand-side link)
+- **Next:** Implementation groundwork via the Chips Joint Undertaking; package-level: call for AI Gigafactories expected July 2026 (demand-side link). External-policy context: the EU joined the **non-binding** US-led *Pax Silica* declaration (signed 25 June 2026, without prejudice to EU regulatory autonomy) — adjacent to the file, not a procedural step ([timeline](TIMELINE.md))
 
 ### Council of the EU — co-legislator
 - **Stage:** Working-party start — proposal received and circulated 3 June 2026 as [ST 10094/26 + ADD 1](sources/README.md) (COMPET.1 secretariat; routing COMPET/IND/MI/RC/RECH/TELECOM/FIN/CADREFIN/CODEC)
