@@ -20,6 +20,15 @@
   This is reporting on the published proposal, not a new text — the substance is the widened
   first-of-a-kind concept in [`provisions/strategic-projects-open-foundry.md`](provisions/strategic-projects-open-foundry.md)
   and the demand instruments in [`provisions/chips-initiative-demand.md`](provisions/chips-initiative-demand.md).
+  Two follow-up pieces (same author, 24 June 2026) refine that read: *"EU doesn't give up on
+  leading-edge manufacturing ambitions"* stresses leading-edge logic is **retained, not dropped** —
+  strategic projects still span a sub-2nm fab, European AI processors, memory manufacturing,
+  advanced packaging and a comprehensive IC-design layer, now coupled with AI-gigafactory support
+  and demand-side adoption (a "multi-pronged" approach vs the 2023 Act's "build-it-and-they-will-come");
+  the companion editorial *"The EU Chips Act: better than nothing"* is a skeptical assessment
+  (necessary but likely to *"run aground on endless deliberations, watered-down compromises,
+  inadequate budgets or poorly designed policy instruments"*). Still commentary on the published
+  proposal — see [`provisions/strategic-projects-open-foundry.md`](provisions/strategic-projects-open-foundry.md).
 
 ## Dutch tech sector (package-level, incl. semiconductors)
 
