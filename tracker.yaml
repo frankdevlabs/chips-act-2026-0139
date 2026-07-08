@@ -100,7 +100,7 @@ watchlist:
       label: "EUR-Lex — Chips Act 2.0 procedure history (HIS page)"
       url: "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=CELEX:52026PC0504"
       affects: [STATUS.md, TIMELINE.md]
-      notes: "EUR-Lex bot-blocks (202/WAF); prefer the Cellar endpoint T1-02 when this fails."
+      notes: "EUR-Lex bot-blocks (202/WAF); on a challenge, refetch via ~/law-tracker/lib/fetch_blocked_doc.py (browser tier solves it; verified on EUR-Lex legal-content 2026-07-08) before falling back to Cellar T1-02. Was auto-paused 2026-07-01 — resume with the fetcher fallback."
     T1-04:
       tier: T1
       kind: institutional
@@ -140,15 +140,16 @@ watchlist:
       tier: T1
       kind: institutional
       label: "Officiële bekendmakingen — dossier 22112 (BNC-fiches; NL government position on new Commission proposals)"
-      url: "https://zoek.officielebekendmakingen.nl/dossier/22112"
+      url: "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(w.dossiernummer==%2222112%22)&svel=Publicatiedatum&svol=Aflopend"
       affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
-      notes: "Watch for the BNC-fiche on Chips Act 2.0 / CADA (expected ~6 weeks after 2026-06-03)."
+      notes: "Watch for the BNC-fiche on Chips Act 2.0 / CADA (expected ~6 weeks after 2026-06-03). Switched 2026-07-08 from the /dossier/22112 HTML page (server-side 500 for all clients) to the RSS query endpoint."
     T1-10:
       tier: T1
       kind: institutional
       label: "Officiële bekendmakingen — dossier 21501-33 (Telecomraad)"
-      url: "https://zoek.officielebekendmakingen.nl/dossier/21501-33"
+      url: "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(w.dossiernummer==%2221501-33%22)&svel=Publicatiedatum&svol=Aflopend"
       affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+      notes: "Switched 2026-07-08 from the /dossier/21501-33 HTML page (server-side 500 for all clients) to the RSS query endpoint."
     T1-11:
       tier: T1
       kind: institutional
