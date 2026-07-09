@@ -5,54 +5,54 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-08T12:33:54Z
+last_run: 2026-07-09T12:38:25Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:299d8c2a4d6ccd6e813330e05e88305e68ce6331bb3806bff6bf05fd1e9278f1"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:071685e4cbc05d587396d838a15f130bd425cd970f1883ab3d5ea880ec707876"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-02:
     last_seen_hash: "sha256:314193a3667ba45f553b54841f331368c92f52f3589ea5fe0db5e794245f2bac"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-03:
     last_seen_hash: "sha256:d067dfa6b9f455d1b0d5dce744b03737fb7ca8e5fcc0ec9143f4e952810f59a4"
     last_seen_at: 2026-06-10T18:12:17Z
     paused: 2026-07-01T12:35:39Z   # AWS-WAF 202 (unreachable-by-design) since 2026-06-10 (>14 days); rely on T1-01/T1-02. Resume on manual intervention.
   T1-04:
     last_seen_hash: "sha256:bb938ca8313967697179dc4a29661ace92314fd88445e03a5574681c4ae6638c"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-05:
-    last_seen_hash: "sha256:10a4630b8197d0b03e88a489079929bf1f3fecee77203320d720e029b4430cf1"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:981d5ed992624162fe6675b9091e7cd740bd8ad96feab1276502008085ea9c7f"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-06:
-    last_seen_hash: "sha256:b72e3252ba8864ce6ed2e5253e67413acb3c30d50f4207b2637a20064f53f8b4"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:28c16dedafbc7715935cae661430483376e7e532c17903e1795aeaeecec77474"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-07:
     last_seen_hash: "sha256:47353aa9ab7565f570a5c68856a6bd14d94254eaf54d83294f841881f4b2ffb6"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-08:
-    last_seen_hash: "sha256:60169b612eddf50d685b8ea14e87a8010c2958f6e8317c35ccdc520bf228c667"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:c6383a80bef7beb11aa96fe0520cc6c3d9fd3c3e88dc6d5d1e2c5609730fd719"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-09:
-    last_seen_hash: "sha256:fe6dfd084c02cc72ad2368df9f461c23993ea37f6a46792705d75f09a3e150c7"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:713ae3fc5dd1bf58625cb5acae68031ce4bf9352d6c304184a4d7021e275e4b8"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-10:
-    last_seen_hash: "sha256:15ed5ddf65beed3b860d39578a532a08749698f2e5da7bbd98be70b3731c2486"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:afca59644f453945f859688bed5b134517f1fad26dc673606e851f9562f19df2"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-11:
-    last_seen_hash: "sha256:054a9ad415d58882a403d64f5e3a4146e24142c89592e83402a8538f265d1bdc"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:aae3be65abbadf179407aed5c9940062a63eb58b538b64b72fc9c0480a0797ac"
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-12:
     last_seen_hash: "sha256:35fa301891f80c7c2625b04eaea23ab29686f21a05610f42a61e7a7fb9678ae3"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_at: 2026-07-09T12:38:25Z
   T1-13:
     seen_refs: []
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_at: 2026-07-09T12:38:25Z
   T2-01:
-    last_seen_hash: "sha256:15e643e2dc37019894af124a8699f0023fdb852835b8c034cf0a20675247d4df"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:b11544f79f5f8b021aa8ef48cd7dbe8a6d61c59404e2ee7966265c111d56c2e2"
+    last_seen_at: 2026-07-09T12:38:25Z
   T2-02:
-    last_seen_hash: "sha256:00a18ff3bc4c4d7136d71ded64e1085a0dabcae18e1e8a9ea6f000caab8a69a6"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:73070a32f41da36c085d2c43deea9bcaa5170ac76038b2daddf8e4de2138a340"
+    last_seen_at: 2026-07-09T12:38:25Z
   T2-03:
-    last_seen_hash: "sha256:0149add1f703daf5aa03d2d8bbcfdd7aac272f93ba76638262ae43bf89a180ba"
-    last_seen_at: 2026-07-08T12:33:54Z
+    last_seen_hash: "sha256:b2c4337c2f0f889bff5461d6bc7b7440822f2bb4d2e601cbfef7921c635653a9"
+    last_seen_at: 2026-07-09T12:38:25Z
