@@ -5,53 +5,53 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-14T12:40:00Z
+last_run: 2026-07-15T12:35:35Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:1375dee4aaf2b9b9f1b2adfa13ea89a9de5d2f562715a2b15607d338466e2000"
-    last_seen_at: 2026-07-14T12:40:00Z   # hash unstable across immediate re-fetches (rotating OEIL widgets); substance unchanged — still pre-referral, no rapporteur, sole event 03/06/2026
+    last_seen_hash: "sha256:f4f19ebd851d5fa1413f92242a99a70a2e33ec8308aa30f6b69fbd1f51b20145"
+    last_seen_at: 2026-07-15T12:35:35Z   # hash unstable across re-fetches (rotating OEIL widgets); substance unchanged — still pre-referral, no rapporteur, sole event 03/06/2026
   T1-02:
     last_seen_hash: "sha256:314193a3667ba45f553b54841f331368c92f52f3589ea5fe0db5e794245f2bac"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_at: 2026-07-15T12:35:35Z
   T1-03:
     last_seen_hash: "sha256:ccd014b6a4581341e05e453ee478deddb6bb18ccfde0dd39ba803457738ff16b"
-    last_seen_at: 2026-07-14T12:40:00Z   # via fetch_blocked_doc.py (browser tier solves AWS-WAF 202); unchanged
+    last_seen_at: 2026-07-15T12:35:35Z   # via fetch_blocked_doc.py (browser tier solves AWS-WAF 202); unchanged
   T1-04:
     last_seen_hash: "sha256:bb938ca8313967697179dc4a29661ace92314fd88445e03a5574681c4ae6638c"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_at: 2026-07-15T12:35:35Z
   T1-05:
-    last_seen_hash: "sha256:820fdaa3aa7b5e6ae44765ac93df6cd0f511e8f2386bc9206a72b7fda76fa649"
-    last_seen_at: 2026-07-14T12:40:00Z   # stable change vs 2026-07-13; no news widget on this page, no new doc visible — flagged in issue #11
+    last_seen_hash: "sha256:3c7ae2e9a2330e5b3b1e75baa28c4ea1d75a3ec388823217e2424943ce32c8bc"
+    last_seen_at: 2026-07-15T12:35:35Z   # stable-churn change; "Last update 3 June 2026", only dated link is the CADA sibling proposal — no new Chips Act 2.0 doc; furniture already flagged in issue #11 — suppressed
   T1-06:
     last_seen_hash: "sha256:28c16dedafbc7715935cae661430483376e7e532c17903e1795aeaeecec77474"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_at: 2026-07-15T12:35:35Z
   T1-07:
     last_seen_hash: "sha256:47353aa9ab7565f570a5c68856a6bd14d94254eaf54d83294f841881f4b2ffb6"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_at: 2026-07-15T12:35:35Z
   T1-08:
-    last_seen_hash: "sha256:ccb0879110a6d0f0b50fc38e773a645834bfca9d3f4bc1a803e8e5838d2991ee"
-    last_seen_at: 2026-07-14T12:40:00Z   # changed hash = "Latest News" widget still showing 23-26 Jun items already covered by closed issue #9 (Pax Silica); no substantive change — suppressed
+    last_seen_hash: "sha256:762763805842dcc8596830e87afc3f742a58042d91f498a60fae2960b5d601cc"
+    last_seen_at: 2026-07-15T12:35:35Z   # changed hash = rotating "Latest News"/EESC widget furniture; no new in-scope doc — suppressed
   T1-09:
-    last_seen_hash: "sha256:56cb40bc31728dbb1af0e3dbedbb6adf2d666b338736ec435c57351f66c9ba2d"
-    last_seen_at: 2026-07-14T12:40:00Z   # newest items are agricultural fiches + a CADA fiche (2026/0138, sibling — out of scope); no Chips Act 2.0 / halfgeleider item — suppressed
+    last_seen_hash: "sha256:9beb9fa0bfa7014f26d1de610185c4438d73be3d040493e93006802fb582c35b"
+    last_seen_at: 2026-07-15T12:35:35Z   # newest items are agri fiches (groene kaart/plantaardig voedsel, meststoffen) + a CADA fiche (2026/0138, sibling — out of scope); still NO Chips Act 2.0 BNC-fiche — suppressed
   T1-10:
-    last_seen_hash: "sha256:afca59644f453945f859688bed5b134517f1fad26dc673606e851f9562f19df2"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_hash: "sha256:33dfcbdf6c71cda879771ad5392a333e2fd217dc5b1761ff158c2f726573b062"
+    last_seen_at: 2026-07-15T12:35:35Z   # newest items are Telecomraad/Energieraad council stukken (transport/energy/ECB) — no semiconductor content, out of scope — suppressed
   T1-11:
-    last_seen_hash: "sha256:fbd4234ea04bac5ac55ba71631f3b90201a69078bd78c9101412eac7dc6ef869"
-    last_seen_at: 2026-07-14T12:40:00Z   # hash unstable (rotating news furniture); only in-scope-ish title is "soevereine cloud" (cloud sovereignty — sibling topic, out of scope)
+    last_seen_hash: "sha256:92c6c363d9687c86e07baf3054a4b9f9c3074fcc42c0b5e35f48a4dea6fba520"
+    last_seen_at: 2026-07-15T12:35:35Z   # hash unstable (rotating news furniture); only sibling-topic titles ("soevereine cloud", AI-strategie) — no semiconductor/chips item — suppressed
   T1-12:
     last_seen_hash: "sha256:35fa301891f80c7c2625b04eaea23ab29686f21a05610f42a61e7a7fb9678ae3"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_at: 2026-07-15T12:35:35Z
   T1-13:
     seen_refs: []
-    last_seen_at: 2026-07-14T12:40:00Z   # ITRE pre-referral; ep_committee_docs.py returns 0 matches
+    last_seen_at: 2026-07-15T12:35:35Z   # ITRE pre-referral; ep_committee_docs.py returns 0 matches
   T2-01:
     last_seen_hash: "sha256:72cbf51123b20d8f5e608264dc698ea3b494d9246fe8004fe2b1b632fb6dd84a"
-    last_seen_at: 2026-07-14T12:40:00Z
+    last_seen_at: 2026-07-15T12:35:35Z
   T2-02:
-    last_seen_hash: "sha256:7aadc0b6613a1a2a2099b950d7ba26caaa88458e1ec1ca5844c80e85e1ac868c"
-    last_seen_at: 2026-07-14T12:40:00Z   # hash unstable (homepage churn); titles rotate, no confidently-new 2026/0139 article
+    last_seen_hash: "sha256:c227361072b9978fed2d7db6be36670a834d3f7d559943673e3347c1c5165e6c"
+    last_seen_at: 2026-07-15T12:35:35Z   # homepage churn (ASIC/Thales/US-chip-controls sector news); only "Chips Act" title is a 24-Jun editorial ("Trump 2.0", not Chips Act 2.0), already old — no new 2026/0139 article — suppressed
   T2-03:
-    last_seen_hash: "sha256:a5b9bbacaed6de2d33fb1125b50880744787afd19bf845915febe276734f2801"
-    last_seen_at: 2026-07-14T12:40:00Z   # feed changed but no chips act / semiconductor / Competitiveness Council item — "competitiveness" hits are Agri-Fisheries Council context
+    last_seen_hash: "sha256:3f4df6d5ee473583b481429a0411fe7c653c61bef793797bc3d448cad84a2415"
+    last_seen_at: 2026-07-15T12:35:35Z   # matches are €659M German semiconductor state-aid (Commission competition decision, not 2026/0139 file movement) + an agri-food "competition" false-match — no legislative-file item — suppressed
