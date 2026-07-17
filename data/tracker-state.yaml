@@ -5,53 +5,53 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-16T12:37:24Z
+last_run: 2026-07-17T12:34:48Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:316da671e513b94a4bbe2b13ef218b7f4f2cc77b2efbb9b3d56b6d7bdf34ad1f"
-    last_seen_at: 2026-07-16T12:37:24Z   # hash unstable across re-fetches (rotating OEIL widgets); substance unchanged — still pre-referral, no rapporteur, sole event 03/06/2026
+    last_seen_hash: "sha256:adc7ca48689896b83ab596a77e11284bc0b74a9a7abc5165d980f19413955006"
+    last_seen_at: 2026-07-17T12:34:48Z   # hash unstable across re-fetches (rotating OEIL widgets); substance unchanged — still "Pending final decision on the referral", no rapporteur, Preparatory phase, sole event 03/06/2026
   T1-02:
     last_seen_hash: "sha256:314193a3667ba45f553b54841f331368c92f52f3589ea5fe0db5e794245f2bac"
-    last_seen_at: 2026-07-16T12:37:24Z   # Cellar XML notice unchanged
+    last_seen_at: 2026-07-17T12:34:48Z   # Cellar XML notice unchanged
   T1-03:
-    last_seen_hash: "sha256:e5c4dca28ddf3d3dd1250d04367b7d56b78bb11060030f8e9712119f5c542083"
-    last_seen_at: 2026-07-16T12:37:24Z   # via fetch_blocked_doc.py (browser tier solves AWS-WAF 202); hash drifts on session furniture — HIS timeline still shows only event 03/06/2026, pre-referral — suppressed
+    last_seen_hash: "sha256:12c695119ffdf7d34b4e5bc44beb843650582b1ec36dfc02bfadc2a83bd8fad7"
+    last_seen_at: 2026-07-17T12:34:48Z   # via fetch_blocked_doc.py (browser tier solves AWS-WAF 202); hash drifts on session furniture — HIS timeline still shows only event 03/06/2026, pre-referral, no rapporteur — suppressed
   T1-04:
     last_seen_hash: "sha256:bb938ca8313967697179dc4a29661ace92314fd88445e03a5574681c4ae6638c"
-    last_seen_at: 2026-07-16T12:37:24Z   # ST-10094 proposal PDF unchanged; no new Council ST number
+    last_seen_at: 2026-07-17T12:34:48Z   # ST-10094 proposal PDF unchanged; no new Council ST number
   T1-05:
-    last_seen_hash: "sha256:4e54699edc58dbc7d9dbcca47a2ec0bdf430d96ca42eba6f06d0befc4619ec16"
-    last_seen_at: 2026-07-16T12:37:24Z   # stable-churn change; only dated ref is 3 June 2026, no new Chips Act 2.0 doc — suppressed
+    last_seen_hash: "sha256:eb1013a947c6db6303c03901082a3f310c947baa57341561b55d1a64e9b5ddf4"
+    last_seen_at: 2026-07-17T12:34:48Z   # stable-churn change; only dated ref is 3 June 2026, no new Chips Act 2.0 doc — suppressed
   T1-06:
-    last_seen_hash: "sha256:bf97bfd8ebeaf69c000fd489bf68464e8ec08e4462caede7a00197e2df927b17"
-    last_seen_at: 2026-07-16T12:37:24Z   # library page churn; only 03 June 2026 proposal, no new document/corrigendum — suppressed
+    last_seen_hash: "sha256:6f4f37e7358e696ad83d292e6c51f763b005153cb91ca8f6a08c1e04fa3053fc"
+    last_seen_at: 2026-07-17T12:34:48Z   # library page churn; only 03 June 2026 proposal, no new document/corrigendum — suppressed
   T1-07:
-    last_seen_hash: "sha256:9e4826200965af416990a442e3c9a4088b63141d485850ee58787f7cae20bc56"
-    last_seen_at: 2026-07-16T12:37:24Z   # legislative-train "As of 20/06/2026"; still pre-referral, rapporteur expected from EP — no substantive change — suppressed
+    last_seen_hash: "sha256:47353aa9ab7565f570a5c68856a6bd14d94254eaf54d83294f841881f4b2ffb6"
+    last_seen_at: 2026-07-17T12:34:48Z   # legislative-train "As of 20/06/2026"; still pre-referral, empty rapporteur field, status Announced — no substantive change — suppressed
   T1-08:
-    last_seen_hash: "sha256:e16611d47ed907f4efc388baae20dc0fa0fc46fb1838317d1131c1cd1d7d305d"
-    last_seen_at: 2026-07-16T12:37:24Z   # changed hash = rotating "Latest News" widget; newest item 14 July 2026 is €659M German semiconductor State aid (competition decision, not 2026/0139 file) — out of scope — suppressed
+    last_seen_hash: "sha256:dcd1d7f0ff827884d21601c80e839dadc7c7ee4652ed1e8a028335a164c5dcee"
+    last_seen_at: 2026-07-17T12:34:48Z   # changed hash = rotating "Latest News" widget; newest dated item still 14 July 2026 German semiconductor State aid (competition decision, not 2026/0139 file) — out of scope — suppressed
   T1-09:
-    last_seen_hash: "sha256:9beb9fa0bfa7014f26d1de610185c4438d73be3d040493e93006802fb582c35b"
-    last_seen_at: 2026-07-15T12:35:35Z   # 2026-07-16: RSS returned "Er is iets mis gegaan..." error page (transient) — state NOT updated; still awaiting Chips Act 2.0 BNC-fiche
+    last_seen_hash: "sha256:6e1c449bf8b87604efb347a6ff444aaa1e6944c4c3739dd2b022485d3994f886"
+    last_seen_at: 2026-07-17T12:34:48Z   # RSS recovered (was error page 07-16); newest fiches 10 Jul (groene-kaart plantaardig voedsel) + 02 Jul (EU-Actieplan Meststoffen) — no chips/halfgeleiders item; still awaiting Chips Act 2.0 BNC-fiche — suppressed
   T1-10:
-    last_seen_hash: "sha256:33dfcbdf6c71cda879771ad5392a333e2fd217dc5b1761ff158c2f726573b062"
-    last_seen_at: 2026-07-15T12:35:35Z   # 2026-07-16: RSS returned error page (transient) — state NOT updated
+    last_seen_hash: "sha256:a53bb6105b6ae485f922803a8c58a70a50016b9528a169a579afa4bac563d9a9"
+    last_seen_at: 2026-07-17T12:34:48Z   # RSS recovered; newest 16 Jul item = Telecomraad "Mededingingsprocedure NL capaciteitsverdelingsregels" (transport/competition), no semiconductor content — suppressed
   T1-11:
-    last_seen_hash: "sha256:fc60fb64a3db347c67ba4d0b4ac5a57bbc333ed5139bc0b7422b724699cedc15"
-    last_seen_at: 2026-07-16T12:37:24Z   # hash unstable (rotating news furniture); newest titles are cloud/AI/cyber (soevereine cloud, digitale autonomie, cyberwetten) — no semiconductor/chips item — suppressed
+    last_seen_hash: "sha256:44bcdc12aa60f1cd30f7e63c5fef122f51ef9e5a69481e07c33c36b4d19eb1ab"
+    last_seen_at: 2026-07-17T12:34:48Z   # hash unstable (rotating news furniture); newest titles are cloud/AI/cyber (soevereine cloud, cyberwetten, internationale AI-strategie) — no semiconductor/chips item — suppressed
   T1-12:
-    last_seen_hash: "sha256:35fa301891f80c7c2625b04eaea23ab29686f21a05610f42a61e7a7fb9678ae3"
-    last_seen_at: 2026-07-15T12:35:35Z   # 2026-07-16: RSS returned error page (transient) — state NOT updated
+    last_seen_hash: "sha256:81034de6506e670bc43d509ef6ff941af02b30cf26f7545d7dabcb372195a13e"
+    last_seen_at: 2026-07-17T12:34:48Z   # RSS recovered; newest Kamervragen items (23 Jun "vooroplopen NL halfgeleiderindustrie", 15 Jun ASML-exportrestricties) are older than last poll and are ASML/industry debate — out of scope per T1-12 rule — suppressed
   T1-13:
     seen_refs: []
-    last_seen_at: 2026-07-16T12:37:24Z   # ITRE pre-referral; ep_committee_docs.py returns 0 matches (exit 0)
+    last_seen_at: 2026-07-17T12:34:48Z   # ITRE pre-referral; ep_committee_docs.py returns 0 matches (exit 0)
   T2-01:
-    last_seen_hash: "sha256:dd730b1aa33058edfcd8c2600aa597e1c64221796ae796260ca95dd6aede850d"
-    last_seen_at: 2026-07-16T12:37:24Z   # new top items "ESIA Position on Intangible Technology Transfer Controls" (export controls) + op-ed "Europe must turn semiconductor ambition into industrial reality" — general advocacy, no 2026/0139 file reference; the Chips-Act-2 position paper deep in list is old — suppressed
+    last_seen_hash: "sha256:a5d15ed70bd24ade3ae2e779bc29fcdab9c83e4dca0f10301f877c450ac859eb"
+    last_seen_at: 2026-07-17T12:34:48Z   # top items still 8 Jul "ESIA Position on Intangible Technology Transfer Controls" (export controls) + 16 Jun anniversary + 3 Jun op-ed — general advocacy, no 2026/0139 file reference — suppressed
   T2-02:
-    last_seen_hash: "sha256:d75c42ac5d67ea503f72b237d57517649c0a61c9c049a53e5db50998fe03db07"
-    last_seen_at: 2026-07-16T12:37:24Z   # homepage churn; only Chips-Act/EU-manufacturing articles are 22-24 June 2026 (already seen, >3wk old) — no new 2026/0139 article — suppressed
+    last_seen_hash: "sha256:9932ee3d6c9a43ac8602f2a781df8fe7636c638f2faa767b1bf4fb92e6d89756"
+    last_seen_at: 2026-07-17T12:34:48Z   # homepage churn; newest headlines (3-9 Jul: ASIC spinout, ASML-TNO photonic pilot line, US-China chip export controls) are company/industry news — no 2026/0139 Chips Act 2.0 legislative article — suppressed
   T2-03:
     last_seen_hash: "sha256:36016ba05f1fd12acd53a726f72990da1b097cec0481bb51c9a37fa0685ba15e"
-    last_seen_at: 2026-07-16T12:37:24Z   # feed items all out of scope (ad transparency, skills, anti-corruption, defence, nitrates, state aid) — no semiconductor/Chips Act/COMPET Council match — suppressed
+    last_seen_at: 2026-07-16T12:37:24Z   # 2026-07-17: ieu-monitoring returned Wordfence "access has been limited" block page on both attempts (reachable 07-16) — treat as unreachable, state NOT updated; transient, log to weekly Source health if it persists
