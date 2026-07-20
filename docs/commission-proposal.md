@@ -34,6 +34,10 @@ The impact assessment received a **negative RSB opinion** (28 January 2026), the
 with reservations (30 March 2026); the preferred option is the "vertical (proactive) industrial
 policy approach" (PO2). It also implements the **Semicon Coalition Declaration** signed by all 27
 Member States ([Commission news](https://digital-strategy.ec.europa.eu/en/news/semicon-coalition-calls-reinforced-chips-act)).
+The Commission's scientific evidence base is the same-day **JRC science-for-policy brief *From
+dependency to resilience*** (JRC147104, 3 June 2026; linked from the Commission policy page) — framing
+the package as a shift from digital regulation to assertive industrial strategy over critical
+technologies ([register](../sources/README.md#commission)).
 
 ## Structure (60 articles, eight Chapters)
 
