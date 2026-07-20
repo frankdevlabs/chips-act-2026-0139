@@ -89,7 +89,20 @@ documents:
       Cite-only (presscorner; no file committed). Companion factsheet: fs_26_1189
       (https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1189).
 
-  - id: ST-10094-2026
+  - id: JRC147104
+    title: "JRC science-for-policy brief — From dependency to resilience: JRC science for EU technological sovereignty"
+    body: Commission
+    date: 2026-06-03
+    limite: false
+    url: https://publications.jrc.ec.europa.eu/repository/handle/JRC147104
+    local: sources/commission/JRC147104_from-dependency-to-resilience_2026-06-03.pdf
+    notes: >-
+      Commission supporting document (Di Girolamo & Kotsev, Joint Research Centre), published the same
+      day as COM(2026) 504 and linked from the Commission's Chips Act 2.0 policy page (T1-05). Frames
+      the Tech Sovereignty Package as a shift from digital regulation to assertive industrial strategy
+      over critical technologies — evidence base, not a procedural step. Registered 2026-07-20 as the
+      follow-up flagged in docs/triage/2026-07-14-issue-11.md (long-standing link, not the 14 Jul body
+      change). Cross-linked from docs/commission-proposal.md (Why).
     title: "Cover note — transmission of COM(2026) 504 final to the Council (COMPET 666, IND 388, MI 582, RC 13, RECH 258, TELECOM 290, FIN 812, CADREFIN 262, CODEC 1088)"
     body: Council
     date: 2026-06-03

@@ -18,6 +18,7 @@
 | `SWD-2026-505` | Executive summary of the impact assessment | 2026-06-03 | `sources/commission/` | [digital-strategy library](https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20) |
 | `ROADMAP-2026-04-23` | Joint Roadmap "One Europe, One Market" (EP/Council/Commission) | 2026-04-23 | `sources/commission/` | [Commission](https://commission.europa.eu/document/download/5445de81-9481-4335-9902-9756159ba614_en?filename=one-europe-one-market-roadmap.pdf) |
 | `IP-26-1187` | Press release — Tech Sovereignty Package presented | 2026-06-03 | cite-only | [presscorner](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187) · [factsheet](https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1189) |
+| `JRC147104` | JRC science-for-policy brief — *From dependency to resilience* (supporting document) | 2026-06-03 | [`commission/JRC147104_from-dependency-to-resilience_2026-06-03.pdf`](commission/JRC147104_from-dependency-to-resilience_2026-06-03.pdf) | [JRC publications repository](https://publications.jrc.ec.europa.eu/repository/handle/JRC147104) · follow-up from [triage #11](../docs/triage/2026-07-14-issue-11.md) |
 
 ## Council
 
