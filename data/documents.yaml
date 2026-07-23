@@ -142,3 +142,27 @@ documents:
       (raw materials/hardware/infrastructure up to software, data and applications) and open source
       as cross-cutting enabler. Covers the whole package, semiconductors included — same document
       registered in the sibling CADA tracker.
+
+  - id: NL-BNC-22112-4407
+    title: "BNC-fiche 'Chips Act 2.0' — Netherlands government assessment of COM(2026) 504 (Kamerstuk 22 112, nr. 4407)"
+    body: Netherlands
+    date: 2026-07-10
+    limite: false
+    url: https://zoek.officielebekendmakingen.nl/kst-1263577.html
+    local: sources/member-states/NL-BNC-22112-4407_bnc-fiche-chips-act-2-0_2026-07-10.pdf
+    lead_source: >-
+      Surfaced by the daily tracker (T1-09 — Officiële bekendmakingen dossier 22112 BNC-fiches RSS
+      feed) as GitHub issue #16, detected 2026-07-23; the BNC-fiche is the file's own NL-government
+      position, confirmed against the officielebekendmakingen publication (see docs/triage/2026-07-23-issue-16.md).
+    notes: >-
+      The formal Dutch BNC-fiche (Beoordeling Nieuwe Commissievoorstellen) assessing COM(2026) 504,
+      the Chips Act 2.0 proposal this repo tracks (2026/0139) — NOT the sibling CADA (2026/0138), which
+      has its own separate fiche in the same transmission. Transmitted to the Tweede Kamer under a
+      cover letter from the Minister of Foreign Affairs (T.B.W. Berendsen) dated The Hague 10 July 2026
+      (Kamerstuk 22 112, nr. 4407) bundling four fiches; published on officielebekendmakingen.nl as
+      kst-1263577 on 22 July 2026. Lead ministry EZK (Economische Zaken en Klimaat); Council formation
+      Competitiveness; QMV; EP co-decision. Grondhouding: positive on competence, subsidiarity and
+      (with caveats) proportionality; broadly supportive on the main lines while pressing on governance
+      (stronger Member-State steering via the ESB), the domestic-undertaking >50% ownership test, the
+      direct designation of the Art 19 Advanced Manufacturing Project, procurement/'sufficient risk'
+      obligations and crisis powers — see docs/member-state-positions.md.

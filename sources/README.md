@@ -43,3 +43,4 @@
 | ID | Title | Date | Hosted file | Provenance |
 |---|---|---|---|---|
 | `NL-NONPAPER-2026-04-17` | NL non-paper — "An Integrated Approach for the EU Tech Sovereignty Package" | 2026-04-17 | `sources/member-states/` | [Tweede Kamer 2026D18815](https://www.tweedekamer.nl/downloads/document?id=2026D18815) · [rijksoverheid.nl](https://www.rijksoverheid.nl/documenten/2026/04/20/nonpaperbythenetherlandsontheeutechsovereigntypackage) |
+| `NL-BNC-22112-4407` | NL BNC-fiche — "Chips Act 2.0" (government assessment of COM(2026) 504) | 2026-07-10 | [`member-states/NL-BNC-22112-4407_bnc-fiche-chips-act-2-0_2026-07-10.pdf`](member-states/NL-BNC-22112-4407_bnc-fiche-chips-act-2-0_2026-07-10.pdf) | [Officiële bekendmakingen kst-1263577](https://zoek.officielebekendmakingen.nl/kst-1263577.html) |

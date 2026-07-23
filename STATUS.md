@@ -51,11 +51,11 @@ co-legislator position of any kind exists yet.
 |---|---|---|
 | **EESC** | Mandatory consultee; no opinion page exists yet (checked 10 June 2026) | — |
 | **CoR** | Mandatory consultee (cited in the preamble); no opinion scheduled yet | — |
-| **Member States** | Semicon Coalition Declaration for a Chips Act 2.0 (27 MS, 29 Sep 2025); NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026) — [register](sources/README.md) | NL: organise the package around a "Sovereign Tech Stack" with a demand–supply loop across stack layers — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
+| **Member States** | Semicon Coalition Declaration for a Chips Act 2.0 (27 MS, 29 Sep 2025); NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026); **NL BNC-fiche "Chips Act 2.0"** (Kamerstuk 22 112 nr. 4407; 10 Jul 2026, published 22 Jul) — [register](sources/README.md) | NL: broadly positive on the main lines; positive on competence/subsidiarity, proportionality with caveats; presses for stronger Member-State steering via the ESB, a less strict *domestic-undertaking* >50% test, objection to the direct Art 19 designation, and clearer procurement/crisis obligations — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
 
 ## Next milestones to watch
 
-- [ ] **NL BNC-fiche** on Chips Act 2.0/CADA (dossier 22112; expected ~mid-July 2026, ±6 weeks after presentation)
+- [x] **NL BNC-fiche** on Chips Act 2.0 (dossier 22112) — delivered 10 Jul 2026 (Kamerstuk 22 112 nr. 4407), see [`docs/member-state-positions.md`](docs/member-state-positions.md)
 - [ ] **EP committee referral + rapporteur** (ITRE expected)
 - [ ] **First Presidency compromise text** in the Council (Irish Presidency, H2 2026) — would trigger the first `extracts/council/` version
 - [ ] **EESC/CoR opinions** on Chips Act 2.0 (no opinion pages yet)
