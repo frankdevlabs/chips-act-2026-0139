@@ -10,7 +10,21 @@
 - **ESIA (European Semiconductor Industry Association)** — drove the 2025 Chips Act 2.0 advocacy
   alongside the Semicon Coalition (the all-27-Member-State Declaration of 29 September 2025);
   baseline supportive of a reinforced Act — [news stream](https://www.eusemiconductors.eu/esia/news)
-  (watchlist T2-01; position paper on the actual proposal still to be registered).
+  (watchlist T2-01; position paper on the actual proposal still to be registered). On **22 July 2026**
+  ESIA co-signed a cross-industry joint call *"Innovate in Europe, scale in Europe: A joint industry call
+  for an ambitious European Competitiveness Fund"*
+  ([statement PDF](https://www.eusemiconductors.eu/sites/default/files/2026.07.22_JointIndustryStatement_InnovateinEuropeScaleinEurope.pdf);
+  signatories rendered as logos, recorded here as a cross-industry coalition). **Scope:** this is a
+  *horizontal* call on the **European Competitiveness Fund (ECF)** — the next-MFF instrument, tracked in
+  its own file — and makes **no** Chips-Act-2.0-specific ask; its relevance here is via **financing**
+  (the ECF is the vehicle expected to fund the [Chips for Europe Initiative 2.0](provisions/chips-initiative-demand.md)).
+  Three asks: (1) strengthen ECF governance / industry engagement (a **Strategic Stakeholders Board**);
+  (2) tightly align the ECF with **Horizon Europe** (integrated work programme, private-capital crowd-in
+  as a core success criterion); (3) cut bureaucracy (single rulebook, one-stop-shop, faster time-to-grant).
+  It closes with a plea — bearing directly on this file's [financing gap](fault-lines.md) — that **the ECF
+  and Horizon Europe not be cut in the final MFF agreement**. (Its references to a *"draft ITRE report"* /
+  amendments 1937·1941·1945 and the *"Council partial general approach of 16 June"* concern the **ECF
+  Regulation's own** procedure, **not** 2026/0139 — which is pre-referral with no ITRE report.)
 - **Bits&Chips** — NL/EU semiconductor-sector reporting (ASML/NXP ecosystem, Brainport); sector
   sounding board for the open-foundry and first-of-a-kind debates — [bits-chips.com](https://bits-chips.com/)
   (watchlist T2-02). Early read of the proposal (P. van Gerven, 4 June 2026): the Act 2.0
