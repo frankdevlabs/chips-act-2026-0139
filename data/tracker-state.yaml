@@ -5,53 +5,53 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-28T12:30:00Z
+last_run: 2026-07-29T12:30:00Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:2d810087fdbfacf4c39f853b7770e1379d0fdc9fd9cdbdb9e04188629e98c0d9"
-    last_seen_at: 2026-07-28T12:30:00Z   # hash drifted on rotating OEIL widgets; substance unchanged — Committee-responsible still "Pending final decision on the referral", rapporteur empty, no ITRE, sole key event 03/06/2026 COM(2026)0504 — suppressed
+    last_seen_hash: "sha256:1b9cf65aabc86b2ee620cd9dc4dc989fbba044e0648790cafaa0e292dfd9a897"
+    last_seen_at: 2026-07-29T12:30:00Z   # hash drifted on rotating OEIL widgets; substance unchanged — Committee-responsible still "Pending final decision on the referral", rapporteur empty, no ITRE, sole key event 03/06/2026 COM(2026)0504 — suppressed
   T1-02:
     last_seen_hash: "sha256:314193a3667ba45f553b54841f331368c92f52f3589ea5fe0db5e794245f2bac"
-    last_seen_at: 2026-07-28T12:30:00Z   # Cellar XML notice unchanged
+    last_seen_at: 2026-07-29T12:30:00Z   # Cellar XML notice unchanged
   T1-03:
     last_seen_hash: "sha256:ccd014b6a4581341e05e453ee478deddb6bb18ccfde0dd39ba803457738ff16b"
-    last_seen_at: 2026-07-24T12:30:11Z   # NOT re-polled this run (kept last-seen); T1-03 verified stable 2026-07-24 via fetch_blocked_doc.py browser tier, hash unchanged since 2026-07-22
+    last_seen_at: 2026-07-29T12:30:00Z   # re-polled via fetch_blocked_doc.py browser tier (curl gets AWS-WAF 202); normalized HIS body hash unchanged since 2026-07-22
   T1-04:
     last_seen_hash: "sha256:bb938ca8313967697179dc4a29661ace92314fd88445e03a5574681c4ae6638c"
-    last_seen_at: 2026-07-24T12:30:11Z   # 2026-07-28: UNREACHABLE — HTTP 000 on fetch + 10s-backoff retry (network/CDN transient). Hash NOT updated. Recovered 07-24; failed 07-20/07-23/07-28. No new ST compromise number. Logged to Source health #14
+    last_seen_at: 2026-07-29T12:30:00Z   # RECOVERED — HTTP 200, 1.39 MB PDF, hash unchanged, no new ST compromise number. 07-20/07-23/07-28 outages confirmed transient. Health #14
   T1-05:
-    last_seen_hash: "sha256:200876a1dcd08b2e16711fa3384ecad41c442002a89d580b0e9da3dc444ccae1"
-    last_seen_at: 2026-07-28T12:30:00Z   # stable-churn change; only dated reference on the page is 3 June 2026, no new Chips Act 2.0 document — suppressed
+    last_seen_hash: "sha256:25be3a355a870e95d8531545fc2ec7d5f6dc25be9787ce4e0714fc88962d420e"
+    last_seen_at: 2026-07-29T12:30:00Z   # stable-churn change; only dated reference on the page is 3 June 2026, no new Chips Act 2.0 document — suppressed
   T1-06:
     last_seen_hash: "sha256:bf97bfd8ebeaf69c000fd489bf68464e8ec08e4462caede7a00197e2df927b17"
-    last_seen_at: 2026-07-28T12:30:00Z   # library page unchanged; still only the 03 June 2026 proposal, no new document/corrigendum
+    last_seen_at: 2026-07-29T12:30:00Z   # library page unchanged; still only the 03 June 2026 proposal, no new document/corrigendum
   T1-07:
     last_seen_hash: "sha256:1c97ea99b07ae9ec85ccb3dd9e7a4f7927ea5c83678cbf9a0ea5d1c6eb217c49"
-    last_seen_at: 2026-07-28T12:30:00Z   # curl got AWS-WAF gokuProps challenge again; fetch_blocked_doc.py browser tier recovered the real body (88 KB) — normalized hash unchanged, still "As of 20/06/2026", pre-referral, no rapporteur — suppressed
+    last_seen_at: 2026-07-29T12:30:00Z   # curl got AWS-WAF gokuProps challenge again; fetch_blocked_doc.py browser tier recovered the real body (88 KB) — normalized hash unchanged, still "As of 20/06/2026", pre-referral, no rapporteur — suppressed
   T1-08:
-    last_seen_hash: "sha256:c258fabc2971a05e1ea57b5c56f80c685a83a0a4e1bccf7356ea371a8ae2d193"
-    last_seen_at: 2026-07-28T12:30:00Z   # rotating "Latest News" widget; newest dated item still 14 July 2026 (German semiconductor State aid — competition decision, not 2026/0139), no new dated item — out of scope — suppressed
+    last_seen_hash: "sha256:c2caaff5e4f7548fa7a28432572cee233c0ceaa2b0871299e64d571d56d6b324"
+    last_seen_at: 2026-07-29T12:30:00Z   # rotating "Latest News" widget; newest dated item still 14 July 2026 (German semiconductor State aid — competition decision, not 2026/0139), no new dated item — out of scope — suppressed
   T1-09:
-    last_seen_hash: "sha256:e621132d13d13deb646a8457573dc4b220ee259f57ea1f6e0194078b15cc7e26"
-    last_seen_at: 2026-07-28T12:30:00Z   # dossier 22112 churn; newest items 28 & 24 Jul are BNC-fiches/verslagen on 'Stop Destroying Videogames' ECI, Omnibus Digitaal, EU Inc. 28ste regime, Maritieme Ruimtelijke Planning, satellietdiensten 2GHz — no semiconductor/Chips Act content — suppressed
+    last_seen_hash: "sha256:76f31e8059eb05cce90d582254285698bf32f493dff1bc6aa22c49623e2bb27a"
+    last_seen_at: 2026-07-29T12:30:00Z   # dossier 22112 churn; new 28-29 Jul items are commissiedebat Innovatie/AI, 'Stop Destroying Videogames' ECI, Omnibus Digitaal — out of scope. In-scope 'Fiche: Chips Act 2.0' (22 Jul) already tracked in #16; 'Fiche Mededeling Tech Soevereiniteit' (22 Jul) is a Communication fiche, not the legislation — suppressed
   T1-10:
-    last_seen_hash: "sha256:c8acc4731df360ba1dd76e67cbe6972f7e8eb5fcc1613d773dc2ec82e7a48033"
-    last_seen_at: 2026-07-28T12:30:00Z   # dossier 21501-33 churn; newest items 22-28 Jul are ECB-groene-investeringen/gasbeleid/Transportraad/Rail-Passenger/Energieraad moties — no semiconductor/Chips Act content — suppressed
+    last_seen_hash: "sha256:fca3981627e2d38ddf31e9af42d72b56e5352577c41b9930b7ee85c257c95e54"
+    last_seen_at: 2026-07-29T12:30:00Z   # dossier 21501-33 churn; new 28/24 Jul items non-semiconductor; only keyword match is the old 26 May NL Tech-Sovereignty non-paper (pre-existing) — suppressed
   T1-11:
-    last_seen_hash: "sha256:cd580f575e392f139215e7fbc2aefe80d1dcd704fc7d721dd640ff276bbf2431"
-    last_seen_at: 2026-07-28T12:30:00Z   # rotating news furniture; no chip/halfgeleider/semiconductor keyword on page (only "soevereine cloud" = CADA sibling territory) — suppressed
+    last_seen_hash: "sha256:4a89de49a848467596af4d57ff9854f28508570e47ee850efb383bf16d5ee417"
+    last_seen_at: 2026-07-29T12:30:00Z   # rotating news furniture; only "soevereine cloud / digitale soevereiniteit" (2 juli Kamerbrief) = CADA sibling territory, no chip/halfgeleider/semiconductor keyword — suppressed
   T1-12:
     last_seen_hash: "sha256:81034de6506e670bc43d509ef6ff941af02b30cf26f7545d7dabcb372195a13e"
-    last_seen_at: 2026-07-28T12:30:00Z   # Kamervragen RSS unchanged
+    last_seen_at: 2026-07-29T12:30:00Z   # Kamervragen RSS unchanged
   T1-13:
     seen_refs: []
-    last_seen_at: 2026-07-23T12:36:41Z   # 2026-07-28: UNREACHABLE — ep_committee_docs.py ITRE "no es_document blocks found (page layout changed?)". seen_refs kept []. File still pre-referral so no in-scope docs expected; parser needs a layout fix. Logged to Source health #14
+    last_seen_at: 2026-07-23T12:36:41Z   # 2026-07-29: still UNREACHABLE — ep_committee_docs.py ITRE exit 2 "no es_document blocks found (page layout changed?)". seen_refs kept []. File pre-referral so no in-scope docs expected; parser needs a layout fix. Health #14
   T2-01:
     last_seen_hash: "sha256:e09903e4515325e9902fd2b56d2b2de1988d08557ec9e310f587fb5939816d77"
-    last_seen_at: 2026-07-28T12:30:00Z   # ESIA news furniture churn; newest item still 22 Jul "Innovate in Europe... European Competitiveness Fund" already caught 2026-07-23 (#17) — no new item — suppressed
+    last_seen_at: 2026-07-29T12:30:00Z   # ESIA news unchanged; newest item still 22 Jul "Innovate in Europe... European Competitiveness Fund" already caught 2026-07-23 (#17)
   T2-02:
-    last_seen_hash: "sha256:5ab6c277a89c64353f040ed77cb087f494102442e7db67821eb7fbd4db98d3a9"
-    last_seen_at: 2026-07-28T12:30:00Z   # homepage churn/reorder; top items are company/tech news (ASML prices, TSMC capex, export controls) — the two in-scope EU-Chips-Act editorials still dated 2026-06-24, pre-existing, no new 2026/0139 article — suppressed
+    last_seen_hash: "sha256:da2e08f212dcde4a77df4716a08d61874bde18bd26156db92885133e70145f7f"
+    last_seen_at: 2026-07-29T12:30:00Z   # homepage churn/reorder; top items are company/tech news (ASML prices, TSMC capex, US-China chip controls) — the sole "Chips Act 2.0" editorial teaser is the pre-existing 2026-06-24 piece (#7), no new 2026/0139 article — suppressed
   T2-03:
     last_seen_hash: "sha256:36016ba05f1fd12acd53a726f72990da1b097cec0481bb51c9a37fa0685ba15e"
-    last_seen_at: 2026-07-16T12:37:24Z   # 2026-07-28: UNREACHABLE — Wordfence "access has been limited" HTTP 503, ~12 consecutive failing days (last good 2026-07-16). State NOT updated; logged to Source health #14. Auto-pause threshold 14 days — not yet reached
+    last_seen_at: 2026-07-16T12:37:24Z   # 2026-07-29: still UNREACHABLE — Wordfence "access has been limited" HTTP 503, ~13 consecutive failing days (last good 2026-07-16). State NOT updated; Health #14. Auto-pause at 14 days — next failing run (07-30) triggers pause
