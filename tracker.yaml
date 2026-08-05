@@ -108,7 +108,18 @@ watchlist:
       url: "https://data.consilium.europa.eu/doc/document/ST-10094-2026-INIT/en/pdf"
       document_id: ST-10094-2026
       affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
-      notes: "HIGHEST PRIORITY once Council compromise texts start appearing. LIMITE texts 404 on the live register — fall back to national-parliament records or press mirrors. A new ST version -> transcribe-council-extract skill, then cascade through provisions/positions."
+      notes: >-
+        HIGHEST PRIORITY once Council compromise texts start appearing. LIMITE texts 404 on the live
+        register — fall back to national-parliament records or press mirrors. A new ST version ->
+        transcribe-council-extract skill, then cascade through provisions/positions.
+        OUTAGE SIGNATURE (seen 2026-07-20, Source health #14): HTTP 500 + 0 bytes, and the browser tier
+        of fetch_blocked_doc.py times out. Before concluding the document moved or was withdrawn, probe a
+        CONTROL document on the same endpoint (e.g. .../ST-9000-2025-INIT/en/pdf) — if that 500s too, it
+        is a host-side outage of data.consilium.europa.eu/doc/document/* (the host root still answers 200)
+        and the correct action is to wait and re-poll, NOT to change this URL. www.consilium.europa.eu
+        register-search fallbacks are bot-blocked (403), so there is no live substitute during an outage;
+        the 3 June 2026 cover note itself is already committed at
+        sources/council/ST-10094-2026_cover-note-proposal_2026-06-03.pdf.
     T1-05:
       tier: T1
       kind: institutional
@@ -199,12 +210,26 @@ watchlist:
       url: "https://bits-chips.com/"
       affects: [docs/stakeholders.md]
       notes: "NL sector voice on semiconductors (ASML/NXP ecosystem, Brainport)."
-    T2-03:
+    # T2-03 — RETIRED 2026-07-20 (Source health #14), ID not to be reused.
+    #   INSIGHT EU MONITORING RSS (https://ieu-monitoring.com/feed/) now returns a Wordfence 503
+    #   "Accessed a banned URL" on every feed path (and on site search), with an on-page notice that
+    #   bots/crawlers/aggregators require a commercial licence. That is a deliberate owner-side ban,
+    #   not an outage — polling it further would be against the site's stated terms, so it is removed
+    #   rather than worked around. Already-cited IEU article URLs in TIMELINE.md / STATUS.md stay
+    #   (they were read before the ban and remain valid citations).
+    T2-04:
       tier: T2
       kind: stakeholder
-      label: "INSIGHT EU MONITORING — RSS"
-      url: "https://ieu-monitoring.com/feed/"
+      label: "Eunews (IT) — EU institutional news RSS"
+      url: "https://www.eunews.it/feed/"
       affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
-      notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results. Filter on Chips Act / Competitiveness Council / tech sovereignty keywords."
+      notes: >-
+        Partial replacement for the retired T2-03 as a mirror of Council meeting outcomes while
+        consilium.europa.eu bot-blocks (403). Italian-language: check the FILE NUMBER, not just the
+        topic — Italian coverage routinely merges the two halves of the tech sovereignty package, and
+        CADA 2026/0138 (COD) is out of scope here. Confirmed to cover the file's own launch
+        (03/06/2026 "Chip, cloud e IA: Bruxelles lancia il pacchetto sulla sovranità tecnologica").
+        Secondary source only — never assert operative text from it; use it to spot a Council step,
+        then confirm on T1-04/T1-08/T1-09.
     # --- Tier 3: social ------------------------------------------------------
     # none yet
