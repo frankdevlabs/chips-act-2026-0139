@@ -13,7 +13,11 @@
   proposal** — the memorandum names no envelope. The evaluation itself concedes the Chips Fund's
   EIC-Accelerator budget was exhausted in two years. Expect the EP to push on budget here (as it did
   on the 2023 Act's EUR 3.3bn), and Member States to resist new EU-level money — see
-  [strategic-projects-open-foundry](provisions/strategic-projects-open-foundry.md).
+  [strategic-projects-open-foundry](provisions/strategic-projects-open-foundry.md). Industry is now
+  lobbying on the financing vehicle itself: on **22 July 2026** ESIA co-signed a cross-industry call for
+  an *ambitious* European Competitiveness Fund — better ECF governance/industry engagement, tight
+  ECF–Horizon Europe alignment, and **no cuts to the ECF/Horizon in the final MFF agreement** (a
+  horizontal ECF ask, not a Chips-Act-specific one; see [`stakeholders.md`](stakeholders.md)).
 - **Open-foundry feasibility and state aid** ([strategic-projects-open-foundry](provisions/strategic-projects-open-foundry.md)) —
   Art 19 obliges the Commission to treat a Union-based open foundry "with the highest priority", but
   the regulation supplies status, not money: financing runs through the CCT/next-MFF instruments and
