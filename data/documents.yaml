@@ -168,3 +168,29 @@ documents:
       (stronger Member-State steering via the ESB), the domestic-undertaking >50% ownership test, the
       direct designation of the Art 19 Advanced Manufacturing Project, procurement/'sufficient risk'
       obligations and crisis powers — see docs/member-state-positions.md.
+
+  - id: NL-CONSULT-22112-4410
+    title: "Netherlands' response to the EU public consultation on the review of the Chips Act (Kamerstuk 22 112, nr. 4410)"
+    body: Netherlands
+    date: 2026-08-05
+    limite: false
+    url: https://zoek.officielebekendmakingen.nl/blg-1265000.html
+    local: sources/member-states/NL-CONSULT-22112-4410_consultation-response-chips-act-review_2026-08-05.pdf
+    lead_source: >-
+      Surfaced by the daily tracker (T1-09 — Officiële bekendmakingen dossier 22112 RSS feed) as GitHub
+      issue #26, detected 2026-08-06; the completed Have-Your-Say questionnaire is the Netherlands' own
+      government submission on the Chips Act review / a future Chips Act 2.0, confirmed against the
+      officielebekendmakingen publication (see docs/triage/2026-08-06-issue-26.md).
+    notes: >-
+      The Netherlands' government submission to the Commission's "Have Your Say" public consultation on
+      the review of the European Chips Act (Regulation (EU) 2023/1781) — the pre-legislative evidence
+      base that fed the Chips Act 2.0 proposal this repo tracks (2026/0139); Section 3 answers explicit
+      "new ideas for a future 'Chips Act 2.0'" questions. Substantively a Q4-2025 submission (the
+      consultation opened 5 Sep 2025 for 12 weeks); published by the Tweede Kamer as bijlage blg-1265000
+      to Kamerstuk 22 112, nr. 4410 on 5 August 2026 (personal identifier fields anonymised in the PDF
+      under the AVG/GDPR). Pre-dates and foreshadows the formal NL-BNC-22112-4407 position on COM(2026) 504
+      (demand-side focus, the Undertaking-in-Difficulty definition, an EU-preference in strategic public
+      procurement, ESB-led coordination, offtake commitments and a "next-of-a-kind"/scale-up IPF status) —
+      see docs/member-state-positions.md. A separate dossier-22112 item published the same day (an EZK
+      quarterly report on EU legislative negotiations Q1/Q2 2026) is procedural reportage, tracked as a
+      watch note — not registered here.
