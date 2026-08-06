@@ -183,7 +183,7 @@ watchlist:
       tier: T1
       kind: institutional
       label: "EP ITRE committee — latest documents (Chips Act 2.0 draft opinion/report/amendments)"
-      url: "https://www.europarl.europa.eu/committees/en/itre/documents/latest-documents"
+      url: "https://www.europarl.europa.eu/committees/en/documents/latest-documents?committeeMnemoCode=ITRE"
       affects: [extracts/parliament/, docs/provisions/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
       notes: >-
         ITRE is the EXPECTED lead committee, but the file is PRE-REFERRAL (no rapporteur appointed yet) —
@@ -195,6 +195,15 @@ watchlist:
         PDF and DOCX — the listing page confirms existence/metadata only; obtain the text via a browser
         download or non-WAF mirror. Hand a confirmed hit to the parliament-text playbook
         (resolve-tracker-issue) → transcribe-parliament-extract.
+        WAF NOTE (Source health #25, 2026-08-06): the LISTING endpoint itself is now behind the same
+        AWS-WAF as doceo — a plain fetch returns HTTP 202 / 0 bytes, so ep_committee_docs.py hands a
+        challenge page (zero es_document blocks) to its parser and MISREPORTS it as "no es_document
+        blocks found (page layout changed?)". The layout is UNCHANGED: fetched via the browser tier the
+        page is ~305 KB with 80 `class="es_document "` blocks — the exact markup the parser splits on.
+        Before concluding a layout change or a nil result, fetch this URL through
+        ~/law-tracker/lib/fetch_blocked_doc.py (browser tier solves the WAF). url = the
+        committeeMnemoCode form ep_committee_docs.py actually polls (the /en/itre/… pretty URL redirects
+        to it; both 202). Real fix is an infra patch to ep_committee_docs.py's fetch, not this repo.
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
