@@ -51,11 +51,13 @@ co-legislator position of any kind exists yet.
 |---|---|---|
 | **EESC** | Mandatory consultee; no opinion page exists yet (checked 10 June 2026) | — |
 | **CoR** | Mandatory consultee (cited in the preamble); no opinion scheduled yet | — |
-| **Member States** | Semicon Coalition Declaration for a Chips Act 2.0 (27 MS, 29 Sep 2025); NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026); **NL BNC-fiche "Chips Act 2.0"** (Kamerstuk 22 112 nr. 4407; 10 Jul 2026, published 22 Jul) — [register](sources/README.md) | NL: broadly positive on the main lines; positive on competence/subsidiarity, proportionality with caveats; presses for stronger Member-State steering via the ESB, a less strict *domestic-undertaking* >50% test, objection to the direct Art 19 designation, and clearer procurement/crisis obligations — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
+| **Member States** | Semicon Coalition Declaration for a Chips Act 2.0 (27 MS, 29 Sep 2025); NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026); **NL BNC-fiche "Chips Act 2.0"** (Kamerstuk 22 112 nr. 4407; 10 Jul 2026, published 22 Jul); **NL consultation response** on the Chips Act review (pre-legislative Have-Your-Say submission, Kamerstuk 22 112 nr. 4410; published 5 Aug 2026) — [register](sources/README.md) | NL: broadly positive on the main lines; positive on competence/subsidiarity, proportionality with caveats; presses for stronger Member-State steering via the ESB (as coordinator, not decision-maker), a less strict *domestic-undertaking* >50% test, objection to the direct Art 19 designation, clearer procurement/crisis obligations, and — from the pre-legislative consultation — a demand-side-first framing, an EU-preference procurement principle (heavily hedged), a UiD-definition fix and a "next-of-a-kind"/offtake take on the IPF status — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
 
 ## Next milestones to watch
 
 - [x] **NL BNC-fiche** on Chips Act 2.0 (dossier 22112) — delivered 10 Jul 2026 (Kamerstuk 22 112 nr. 4407), see [`docs/member-state-positions.md`](docs/member-state-positions.md)
+- [x] **NL consultation response** on the Chips Act review (pre-legislative Have-Your-Say submission) — published 5 Aug 2026 (Kamerstuk 22 112 nr. 4410; bijlage blg-1265000), see [`docs/member-state-positions.md`](docs/member-state-positions.md)
+- [ ] **EZK quarterly report** on EU legislative negotiations Q1/Q2 2026 (same dossier-22112 batch, 5 Aug 2026) — procedural reportage covering the Chips Act 2.0 Council working-party stage; confirm reference and cite by URL if it adds a procedural fact
 - [ ] **EP committee referral + rapporteur** (ITRE expected)
 - [ ] **First Presidency compromise text** in the Council (Irish Presidency, H2 2026) — would trigger the first `extracts/council/` version
 - [ ] **EESC/CoR opinions** on Chips Act 2.0 (no opinion pages yet)

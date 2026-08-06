@@ -31,6 +31,51 @@ tabled around the informal Telecom Council of 20 April 2026) —
 - The same document is registered in the sibling CADA tracker (file 2026/0138); CADA-specific
   content is analysed there, not here.
 
+**Response to the EU public consultation on the review of the Chips Act** — the Netherlands' government
+submission to the Commission's "Have Your Say" consultation (opened 5 September 2025, 12 weeks) that fed the
+Chips Act 2.0 proposal — [register](../sources/README.md) ·
+[officielebekendmakingen blg-1265000](https://zoek.officielebekendmakingen.nl/blg-1265000.html)
+(published as bijlage to Kamerstuk 22 112, nr. 4410 on 5 August 2026; personal identifier fields anonymised
+under the AVG/GDPR). A **pre-legislative** input (substantively a Q4-2025 submission) — it pre-dates and
+foreshadows the formal BNC-fiche below; **no position on COM(2026) 504's operative articles is asserted from
+it**. Section 3 answers explicit "new ideas for a future 'Chips Act 2.0'" questions. Recurring NL lines:
+
+- **Demand-side, not production-first.** The core message throughout: Union action should target the *whole*
+  value chain and **stimulate European demand/end-markets** rather than only attract fabs — subsidised fabs
+  without guaranteed local demand risk being "inefficient and unsustainable". Europe need not be the mass
+  cutting-edge production hub; it should play to R&D, equipment and **low-volume/high-diversity** strengths and
+  secure supply for critical sectors ([chips-initiative-demand](provisions/chips-initiative-demand.md)).
+- **EU-preference in procurement (heavily hedged).** Backs smart public procurement and governments as
+  launching customers; an **EU-preference principle** in critical/strategic sectors (e.g. AI) is acceptable
+  **only** where no less-invasive measure suffices and the benefits outweigh price, administrative burden and
+  the trade-distorting impact on like-minded partners — delineated in time, proportionality and suitability
+  ([chips-initiative-demand](provisions/chips-initiative-demand.md)).
+- **Undertaking-in-Difficulty (UiD) definition.** Flags the UiD definition as hampering deep-tech start-ups/
+  scale-ups (structurally loss-making yet economically viable); **welcomes the R&R-Guidelines revision** and
+  urges the Commission to redefine UiD "as a matter of priority" — the same concern that surfaces on the
+  *domestic-undertaking* test in the [BNC-fiche](#netherlands) and
+  [strategic-projects-open-foundry](provisions/strategic-projects-open-foundry.md).
+- **IPF / Open-EU-foundry status → offtake + "next-of-a-kind".** Wants the status "fit for purpose": binding
+  or encouraged **offtake/purchase commitments** from downstream users; demand-side signals to prioritise
+  facilities; and a possible relaxation of the strict **"first-of-a-kind"** constraint via a **"next-of-a-kind"
+  / scale-up status** for established fabs and pilot lines
+  ([strategic-projects-open-foundry](provisions/strategic-projects-open-foundry.md)).
+- **State aid caution + IPCEI.** Reluctant on subsidies for production capacity (distortive); calls for clear
+  necessity/proportionality conditions, welcomes the **GBER** revision, and on **IPCEI** floats European
+  co-funding and a permanent/"rolling IPCEI" for semiconductors to fix the funding-by-national-budget and
+  timing weaknesses.
+- **ESB as coordinator, not decision-maker.** The **European Semiconductor Board** should be the main platform
+  to coordinate first-of-a-kind and strategic-project investments (preventing a Member-State subsidy race),
+  with the **Commission coordinating rather than deciding** — consistent with the BNC-fiche's push for stronger
+  Member-State steering ([crisis-response](provisions/crisis-response.md)).
+- **Competitiveness Seal / ECF.** A Competitiveness Seal is useful only if selective and tied to tangible
+  benefits (prioritised approvals / fast-track financing), not symbolic; wants the **European Competitiveness
+  Fund** focused on the most strategic technologies, semiconductors included, under its Digital Leadership
+  window.
+- **AI-chip value chain.** Names **low domestic hyperscaler demand** as the single most constraining barrier
+  (alongside design capability and the skills shortage), and links the Chips Act to CADA, the CRMA and the
+  Quantum Act.
+
 **BNC-fiche "Chips Act 2.0"** — the formal Dutch government position on COM(2026) 504
 (Kamerstuk 22 112, nr. 4407; cover letter The Hague, 10 July 2026; published 22 July 2026) —
 [register](../sources/README.md) · [officielebekendmakingen kst-1263577](https://zoek.officielebekendmakingen.nl/kst-1263577.html).
