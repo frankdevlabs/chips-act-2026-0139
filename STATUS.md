@@ -7,7 +7,7 @@
 | **Legal bases** | Articles 173(3) and 114 TFEU |
 | **OLP stage** | 1st reading — **proposal tabled**; Council at working-party start (COMPET.1 routing), Parliament at pre-referral (no committee, no rapporteur); **no general approach, no trilogue** |
 | **Latest text** | The Commission proposal itself — **COM(2026) 504 final** (3 June 2026) · [register](sources/README.md) (no compromise text exists yet) |
-| **As of** | **10 August 2026** (= `data/tracker-state.yaml` `last_run`) |
+| **As of** | **11 August 2026** (= `data/tracker-state.yaml` `last_run`) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); substance reflects the operative text of
