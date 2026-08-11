@@ -5,58 +5,58 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-08-10T12:35:58Z
+last_run: 2026-08-11T12:35:21Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:609b5262b07e2da9e7cfeef99f16fd17dd28f8684cf49e120e94559733a444e9"
-    last_seen_at: 2026-08-10T12:35:58Z   # OEIL HTTP 200. Normalized hash drifted vs 08-07 but SUBSTANCE unchanged: still "Pending final decision on the referral", no rapporteur, sole Key event 03/06/2026 — non-substantive churn, suppressed
+    last_seen_hash: "sha256:e2899de703215bc77b262f0b9eed3c5fa128a53a638c06160e4f3e70e5d571a4"
+    last_seen_at: 2026-08-11T12:35:21Z   # OEIL HTTP 200. Normalized hash drifted vs 08-10 but SUBSTANCE unchanged: still "Pending final decision on the referral", no rapporteur, sole Key event 03/06/2026 — non-substantive churn, suppressed
   T1-02:
     last_seen_hash: "sha256:314193a3667ba45f553b54841f331368c92f52f3589ea5fe0db5e794245f2bac"
-    last_seen_at: 2026-08-10T12:35:58Z   # Cellar object notice HTTP 200. Only dates present 2026-06-03 (work date) + LASTMODIFICATIONDATE 2026-06-15 (unchanged). Same COM(2026)504 base expression, no new DELIB_WP/byCONSIL event, no new manifestation/ST ref — suppressed
+    last_seen_at: 2026-08-11T12:35:21Z   # Cellar object notice HTTP 200. Hash IDENTICAL to 08-10 — same COM(2026)504 base expression, no new DELIB_WP/byCONSIL event, no new manifestation/ST ref — unchanged
   T1-03:
-    last_seen_hash: "sha256:6776b5c1e8d2b4ba4bcbdd333dde452b11ccfbac24ade8034ac4c9a9a127ac8b"
-    last_seen_at: 2026-08-10T12:35:58Z   # re-polled via fetch_blocked_doc.py browser tier (curl → AWS-WAF 202). HIS hash drift; sole procedure date still 03/06/2026, no referral/rapporteur event — suppressed
+    last_seen_hash: "sha256:cdee08825211450f1fd043f9431acbce9498b8dac0fc949d631e6d24394ac4be"
+    last_seen_at: 2026-08-11T12:35:21Z   # re-polled via fetch_blocked_doc.py browser tier (curl → AWS-WAF 202). HIS hash drift; sole procedure date still 03/06/2026, no referral/rapporteur event — suppressed
   T1-04:
     last_seen_hash: "sha256:bb938ca8313967697179dc4a29661ace92314fd88445e03a5574681c4ae6638c"
-    last_seen_at: 2026-08-10T12:35:58Z   # HTTP 200, 1.39 MB PDF. pdftotext hash drifted (PDF re-render) but SAME 10094/26 COVER NOTE, 3 June 2026, COM(2026) 504, 2026/0139 — no new ST number referenced, no compromise/redline markup — suppressed
+    last_seen_at: 2026-08-11T12:35:21Z   # HTTP 200, 1.39 MB PDF. pdftotext hash IDENTICAL to 08-10 — same 10094/26 COVER NOTE, 3 June 2026, COM(2026) 504, 2026/0139 — no new ST number referenced, no compromise/redline markup — unchanged
   T1-05:
-    last_seen_hash: "sha256:da3753d0a94fe9bbef0ba183d4e0e633d21b3317c3a9e153e2b381ad0f17fe49"
-    last_seen_at: 2026-08-10T12:35:58Z   # widget churn; page's own "Last update 3 June 2026" unchanged, no new Chips Act 2.0 document/corrigendum — suppressed
+    last_seen_hash: "sha256:b3779482d5bed31c61efa7c9952c5f7062909c5bf6714d7cceb92b8704c0eaa5"
+    last_seen_at: 2026-08-11T12:35:21Z   # widget churn; page's own "Last update 3 June 2026" unchanged, no new Chips Act 2.0 document/corrigendum — suppressed
   T1-06:
-    last_seen_hash: "sha256:b720c1cdfaf723e73b7bdf82f1a37d6434675cc278e503b57ed7a7339c04ccfc"
-    last_seen_at: 2026-08-10T12:35:58Z   # widget churn; "Last update 3 June 2026" unchanged, still only the 03 June 2026 proposal, no new document/corrigendum — suppressed
+    last_seen_hash: "sha256:c492f927d17cfe4e10b5bd29b1aaf48ce58947fef4fe501c26f935dbb290be2f"
+    last_seen_at: 2026-08-11T12:35:21Z   # widget churn; "Last update 3 June 2026" unchanged, still only the 03 June 2026 proposal, no new document/corrigendum — suppressed
   T1-07:
     last_seen_hash: "sha256:1c97ea99b07ae9ec85ccb3dd9e7a4f7927ea5c83678cbf9a0ea5d1c6eb217c49"
-    last_seen_at: 2026-08-10T12:35:58Z   # curl got AWS-WAF 202; fetch_blocked_doc.py browser tier recovered the body (88 KB). Normalized hash drifted but "As of 20/06/2026" unchanged, still pre-referral, no rapporteur — suppressed
+    last_seen_at: 2026-08-11T12:35:21Z   # curl got AWS-WAF 202; fetch_blocked_doc.py browser tier recovered the body (88 KB). Normalized hash IDENTICAL to 08-10 — "As of 20/06/2026" unchanged, still pre-referral, no rapporteur — unchanged
   T1-08:
-    last_seen_hash: "sha256:07e9bbf93b60fe8915c5475e332493084b08e9cbc6e4689756510f3113a0027e"
-    last_seen_at: 2026-08-10T12:35:58Z   # rotating "Latest News" widget reorder; page's own "Last update" still 14 Jul 2026, no new in-scope dated item — suppressed
+    last_seen_hash: "sha256:136c13479ae25dfe4921db0d226c6169bc925af90011d589e7f3e667faf4f19b"
+    last_seen_at: 2026-08-11T12:35:21Z   # rotating "Latest News" widget reorder; page's own "Last update" still 14 Jul 2026, no new in-scope dated item — suppressed
   T1-09:
-    last_seen_hash: "sha256:f0e1d21a0aa9e51afede6911b226b38889f0541aca522155977f8c04465b1a31"
-    last_seen_at: 2026-08-07T12:35:57Z   # 2026-08-10: HTTP 500 (0 items) on both attempts — officielebekendmakingen.nl RSS query endpoint down server-side today. Transient, state NOT updated (hash retained from 08-07). Logged to run summary; day-1 failure, weekly health cadence not yet due
+    last_seen_hash: "sha256:32cbb2a536664cb3bb94821b9940ee2ef6747c2f69ee08fe347b43708b45cbd6"
+    last_seen_at: 2026-08-11T12:35:21Z   # RECOVERED (HTTP 200, 150 items) after the 08-10 officielebekendmakingen.nl 500 outage. Newest item 05 Aug 2026; in-scope items all predate the 08-07 baseline & already flagged: BNC-fiche Chips Act 2.0 (22 Jul, #16), Chips Act review consultation (05 Aug, #26) — no new hit, hash rebaselined
   T1-10:
-    last_seen_hash: "sha256:8d7cbd9454f01dfb59aa838a5c26e3c04e44c6df6a819ff1492ca793b1fa2dfa"
-    last_seen_at: 2026-08-07T12:35:57Z   # 2026-08-10: HTTP 500 / timeout (0 items) on both attempts — same officielebekendmakingen.nl outage as T1-09/T1-12. Transient, state NOT updated. Logged to run summary
+    last_seen_hash: "sha256:2c05c168fd170bbd3ff6ea21dee5cee90c04ff41b3c6734d134361eda3fd2857"
+    last_seen_at: 2026-08-11T12:35:21Z   # RECOVERED (HTTP 200, 150 items) after the 08-10 outage. Newest item 07 Aug 2026 (out of scope); sole in-scope match is the NL Tech Sovereignty non-paper (26 May, old) — no new hit, hash rebaselined
   T1-11:
-    last_seen_hash: "sha256:be8442b5e0ced427d230b95d930a37946ef5c4426c22e108745ec324d82e6530"
-    last_seen_at: 2026-08-10T12:35:58Z   # HTTP 200. Only anchor match is "soeverein" — both instances AI/digital sovereignty (generative-AI adoption; digital sovereignty & services), NOT semiconductor; no chip/halfgeleider/semicon/foundry — out of scope, suppressed
+    last_seen_hash: "sha256:3b7fdfe213bea9f58fd2b93fdebf99917abb4627c13f6ec840aacec9f3a02071"
+    last_seen_at: 2026-08-11T12:35:21Z   # HTTP 200. No chip/halfgeleider/semiconductor/foundry/semicon match at all in the body — out of scope, suppressed
   T1-12:
-    last_seen_hash: "sha256:6e7f0db3f2ca1342ab0ecb73ac2b4c1d595cb1fedb808c00666a36ec3341b231"
-    last_seen_at: 2026-08-07T12:35:57Z   # 2026-08-10: HTTP 500 then timeout (0 items) — same officielebekendmakingen.nl outage as T1-09/T1-10. Transient, state NOT updated. Logged to run summary
+    last_seen_hash: "sha256:81034de6506e670bc43d509ef6ff941af02b30cf26f7545d7dabcb372195a13e"
+    last_seen_at: 2026-08-11T12:35:21Z   # RECOVERED on retry (HTTP 500 first attempt → 200, 22 items after 10s backoff) — end of the 08-10 outage. Newest item 23 Jun 2026; all items are the NL halfgeleiderindustrie/ASML-export/Nexperia debate = OUT of scope per T1-12 filter, no EU-Chips-Act-legislation question — no hit, hash rebaselined
   T1-13:
     seen_refs: []
-    last_seen_at: 2026-08-10T12:35:58Z   # ep_committee_docs.py ITRE still "no es_document blocks found (page layout changed?)" — parser layout regression persists. File pre-referral so nil impact (no in-scope docs expected). Tracked in health issue #25 (closed 08-06 with a fix plan); not re-opened daily per weekly source-health cadence. seen_refs kept []
+    last_seen_at: 2026-08-11T12:35:21Z   # ep_committee_docs.py ITRE still "no es_document blocks found (page layout changed?)" — parser layout regression persists. File pre-referral so nil impact (no in-scope docs expected). Tracked in health issue #25 (closed 08-06 with a fix plan); not re-opened daily per weekly source-health cadence. seen_refs kept []
   T2-01:
-    last_seen_hash: "sha256:e33c1885aebf21803ba7b83ebc5f34449711e77e34ae3283a3cba63c4bdaa804"
-    last_seen_at: 2026-08-10T12:35:58Z   # top item still 06 Aug 2026 "Strong momentum in chip sales continues into Q2 2026" — recurring market/statistics release, not the legislative file; only "Chips Act" items remain the same older editorials — suppressed
+    last_seen_hash: "sha256:f2f659bd6ed1529f169d72b8441e8372491b7881332c844a3fc4025a0f7311b1"
+    last_seen_at: 2026-08-11T12:35:21Z   # top item still 06 Aug 2026 "Strong momentum in chip sales continues into Q2 2026" — recurring market/statistics release, not the legislative file; only "Chips Act" items remain the same older editorials — suppressed
   T2-02:
-    last_seen_hash: "sha256:f01e9d1640ad36243e4ae08a8ae08136292a4a6f877c0e03dcf2bb35bca8532e"
-    last_seen_at: 2026-08-10T12:35:58Z   # homepage churn; only "Chips Act" headlines remain the same 24 Jun 2026 editorials ("EU doesn't give up on leading-edge manufacturing ambitions"; "The EU Chips Act: better than nothing" — issue #7). No new legislative item — suppressed
+    last_seen_hash: "sha256:6c529b2eb7a07473d559b2a54c61227cf88b2020aa3162fb174bdf098bbf94ff"
+    last_seen_at: 2026-08-11T12:35:21Z   # homepage churn; only "Chips Act" headlines remain the same 24 Jun 2026 editorials ("EU doesn't give up on leading-edge manufacturing ambitions"; "The EU Chips Act: better than nothing" — issue #7). No new legislative item — suppressed
   T2-03:
     last_seen_hash: "sha256:36016ba05f1fd12acd53a726f72990da1b097cec0481bb51c9a37fa0685ba15e"
     last_seen_at: 2026-07-16T12:37:24Z   # AUTO-PAUSED 2026-07-31 (Wordfence HTTP 503, >14 consecutive failing days, last good 2026-07-16). Not polled this run. Resume only after manual intervention. Health #25/#14
     paused: true
     paused_at: 2026-07-31T12:33:42Z
   T2-04:
-    last_seen_hash: "sha256:8bbe3f4efd14a575edb10e2eaa7c772a8f599e6511dd3ceeb933ad1f4dcd80a7"
-    last_seen_at: 2026-08-10T12:35:58Z   # eunews.it RSS HTTP 200, 10 items. No in-scope title (no chip/semiconduttori/sovranità/COMPET/2026/0139); feed is migration/Ukraine/space/R&D — suppressed
+    last_seen_hash: "sha256:cdbcd1b1683923ace9101202f6bc6b47150a433c4ec0672050baebe99589f141"
+    last_seen_at: 2026-08-11T12:35:21Z   # eunews.it RSS HTTP 200, 10 items. No in-scope title (no chip/semiconduttori/sovranità/COMPET/2026/0139); feed is migration/Ukraine/Sahara/space/athletics — suppressed
