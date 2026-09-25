@@ -5,7 +5,7 @@
 | **Procedure** | **2026/0139 (COD)** — EU Ordinary Legislative Procedure · [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)) |
 | **Proposal** | **COM(2026) 504 final** (3 June 2026) + SWD(2026) 504 (impact assessment, 3 parts) + SWD(2026) 505 (summary) — [digest](docs/commission-proposal.md) · [base-text extracts](extracts/commission/) · [register](sources/README.md) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0504) |
 | **Legal bases** | Articles 173(3) and 114 TFEU |
-| **OLP stage** | 1st reading — **proposal tabled**; Council at working-party start (COMPET.1 routing), Parliament at pre-referral (no committee, no rapporteur); **no general approach, no trilogue** |
+| **OLP stage** | 1st reading — **proposal tabled**; Council at working-party start (COMPET.1 routing), Parliament **referred to ITRE** (rapporteur SCHENK (EPP), appointed 31 Aug 2026; referral announced 14 Sep 2026) — awaiting committee decision; **no draft report, no general approach, no trilogue** |
 | **Latest text** | The Commission proposal itself — **COM(2026) 504 final** (3 June 2026) · [register](sources/README.md) (no compromise text exists yet) |
 | **As of** | **25 September 2026** (= `data/tracker-state.yaml` `last_run`) |
 
@@ -39,11 +39,11 @@ co-legislator position of any kind exists yet.
 - **Next:** First working-party examinations (competitiveness/industry working party expected) under the Irish Presidency; watch the Council register for the first compromise ST number
 
 ### European Parliament — co-legislator
-- **Stage:** Pre-referral — procedure file open, no committee referral, no rapporteur
-- **Latest act:** Procedure file opened — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)) · [Legislative Train "Chips Act II"](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-chips-act-ii)
-- **Owner:** Not yet assigned (ITRE expected as lead committee — verify at referral)
-- **Position:** None yet; early individual reactions only (see [stakeholders](docs/stakeholders.md) for MEP comments)
-- **Next:** Committee referral and rapporteur appointment
+- **Stage:** Committee stage — referral to **ITRE** announced in plenary 14 September 2026 (1st reading); awaiting committee decision, no draft report tabled yet
+- **Latest act:** Committee referral announced 14 Sep 2026; ITRE rapporteur appointed 31 Aug 2026 — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)) · [Legislative Train "Chips Act II"](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-chips-act-ii)
+- **Owner:** **ITRE** (lead) — rapporteur **Oliver SCHENK (EPP)**, appointed 31 Aug 2026; shadows László András (PfE), Francesco Torselli (ECR), Bart Groothuis (Renew), Virginijus Sinkevičius (Greens/EFA). Opinion committees: **JURI** (rapporteur Maravillas Abadía Jover (EPP), appointed 23 Jun 2026) and **IMCO** (no rapporteur yet); **BUDG** decided no opinion
+- **Position:** None yet — no draft report or opinion tabled; early individual reactions only (see [stakeholders](docs/stakeholders.md) for MEP comments)
+- **Next:** ITRE draft report (rapporteur SCHENK); JURI/IMCO draft opinions — the `transcribe-parliament-extract` layer becomes relevant once ITRE tables text
 
 ### Advisory bodies & Member States
 
@@ -58,7 +58,8 @@ co-legislator position of any kind exists yet.
 - [x] **NL BNC-fiche** on Chips Act 2.0 (dossier 22112) — delivered 10 Jul 2026 (Kamerstuk 22 112 nr. 4407), see [`docs/member-state-positions.md`](docs/member-state-positions.md)
 - [x] **NL consultation response** on the Chips Act review (pre-legislative Have-Your-Say submission) — published 5 Aug 2026 (Kamerstuk 22 112 nr. 4410; bijlage blg-1265000), see [`docs/member-state-positions.md`](docs/member-state-positions.md)
 - [ ] **EZK quarterly report** on EU legislative negotiations Q1/Q2 2026 (same dossier-22112 batch, 5 Aug 2026) — procedural reportage covering the Chips Act 2.0 Council working-party stage; confirm reference and cite by URL if it adds a procedural fact
-- [ ] **EP committee referral + rapporteur** (ITRE expected)
+- [x] **EP committee referral + rapporteur** — ITRE referral announced 14 Sep 2026; rapporteur Oliver SCHENK (EPP) appointed 31 Aug 2026 (opinion committees JURI + IMCO; BUDG none) — see the [European Parliament section](#european-parliament--co-legislator) above
+- [ ] **ITRE draft report** (rapporteur SCHENK) and **JURI/IMCO draft opinions** — first EP operative text; triggers the `extracts/parliament/` layer
 - [ ] **First Presidency compromise text** in the Council (Irish Presidency, H2 2026) — would trigger the first `extracts/council/` version
 - [ ] **EESC/CoR opinions** on Chips Act 2.0 (no opinion pages yet)
 - [ ] **Commission call for AI Gigafactories** (announced for July 2026 — package-level demand-side signal)
