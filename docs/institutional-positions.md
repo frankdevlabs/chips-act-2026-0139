@@ -8,7 +8,7 @@
 |---|---|---|
 | **Commission** | proposer | Full replacement of the 2023 Chips Act: Initiative 2.0 with demand-side instruments (Grand Challenges, Demand Accelerators, Demand Forum), strategic projects incl. a highest-priority open foundry, ≤12-month permitting, Regions of Excellence label, strengthened monitoring/crisis response |
 | **Council** | co-legislator | No formal position — proposal received and circulated 3 June 2026 (ST 10094/26 + ADD 1, COMPET.1); at the 9 June 2026 Telecom Council policy debate ministers welcomed the package (general orientations only, nothing Chips-Act-specific) |
-| **Parliament** | co-legislator | None yet — no committee referral, no rapporteur (ITRE expected) |
+| **Parliament** | co-legislator | No substantive position yet — referred to **ITRE** 14 Sep 2026 (rapporteur Oliver SCHENK, EPP; opinions JURI + IMCO, BUDG none); awaiting committee decision, no draft report tabled |
 
 The file is at the very start of the ordinary legislative procedure: the only institutional text is
 the Commission proposal itself, tabled on 3 June 2026 ([digest](commission-proposal.md) ·
@@ -24,7 +24,9 @@ the Commission proposal itself, tabled on 3 June 2026 ([digest](commission-propo
   ([Commission news](https://digital-strategy.ec.europa.eu/en/news/semicon-coalition-calls-reinforced-chips-act))
   — broad baseline support for the exercise, not for any specific provision. National non-papers are
   tracked in [`member-state-positions.md`](member-state-positions.md).
-- **Parliament** — committee referral and rapporteur appointment
+- **Parliament** — referred to **ITRE** 14 Sep 2026; rapporteur **Oliver SCHENK (EPP)** (appointed
+  31 Aug 2026), opinion committees JURI (rapporteur Maravillas Abadía Jover, EPP) and IMCO, BUDG no
+  opinion. The first EP position signal to watch is the **ITRE draft report**
   ([Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0139(COD)) ·
   [Legislative Train "Chips Act II"](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-chips-act-ii)).
 - **EESC / CoR** — mandatory consultees; no opinion pages exist yet (checked 10 June 2026) — see
