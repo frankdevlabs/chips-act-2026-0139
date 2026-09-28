@@ -10,7 +10,28 @@
 - **ESIA (European Semiconductor Industry Association)** — drove the 2025 Chips Act 2.0 advocacy
   alongside the Semicon Coalition (the all-27-Member-State Declaration of 29 September 2025);
   baseline supportive of a reinforced Act — [news stream](https://www.eusemiconductors.eu/esia/news)
-  (watchlist T2-01; position paper on the actual proposal still to be registered). On **22 July 2026**
+  (watchlist T2-01). On **14 September 2026** ESIA published its **position paper on the proposal
+  itself** — *"Chips Act 2.0: supporting demand creation, empowering industry, securing an ambitious
+  budget"*
+  ([position PDF](https://www.eusemiconductors.eu/sites/default/files/ESIA_ChipsAct2-Position2026_final.pdf)) —
+  the first Chips-Act-2.0-**specific** industry position tracked here (it cites COM(2026) 504 by page:
+  the European Semiconductor Board at "page 91 et seq.", the public-procurement provisions at
+  "page 78-79"). It welcomes the shift from a supply-side to a demand-and-ecosystem approach but sets
+  four imperatives. **(1) Industry-centred governance** — a decisive, structured role *with voting
+  rights* in designing grand challenges, demand accelerators/fora, strategic projects, ESTIs, pilot
+  lines and the B2B Platform; the Industrial Alliance Steering Committee and the ESB should be closely
+  coordinated. **(2) Demand and industrial deployment** — demand tools must involve end-users and
+  build scalable commercial markets without new burden, and be embedded across strategic
+  projects/ESTIs/pilot lines/procurement; ESIA asks for **design porting** (moving existing chip
+  designs into EU fabs) to be a fundable, co-funded demand-side cost category (one-off migration/IP/
+  mask/re-qualification costs of several €m per design). **(3) A dedicated semiconductor budget** —
+  an ambitious, dedicated semiconductor envelope within the next-MFF **European Competitiveness Fund
+  (ECF)**, complementing national funding, mobilising private capital, treating mature/specialty and
+  advanced technologies equally, and enabling **coordinated tax incentives** to cut Europe's
+  manufacturing-cost premium. **(4) Competitiveness** — a Europe-wide **digital permitting one-stop
+  shop** and a **six-month** permitting target (*simplify*, not merely shorten); FOAK/ESTI eligibility
+  extended to materials/equipment/component product development; and a narrowed, operating-entity-level
+  reading of *"domestic undertaking"* (see [`fault-lines.md`](fault-lines.md)). On **22 July 2026**
   ESIA co-signed a cross-industry joint call *"Innovate in Europe, scale in Europe: A joint industry call
   for an ambitious European Competitiveness Fund"*
   ([statement PDF](https://www.eusemiconductors.eu/sites/default/files/2026.07.22_JointIndustryStatement_InnovateinEuropeScaleinEurope.pdf);

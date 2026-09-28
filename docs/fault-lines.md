@@ -17,7 +17,12 @@
   lobbying on the financing vehicle itself: on **22 July 2026** ESIA co-signed a cross-industry call for
   an *ambitious* European Competitiveness Fund — better ECF governance/industry engagement, tight
   ECF–Horizon Europe alignment, and **no cuts to the ECF/Horizon in the final MFF agreement** (a
-  horizontal ECF ask, not a Chips-Act-specific one; see [`stakeholders.md`](stakeholders.md)).
+  horizontal ECF ask, not a Chips-Act-specific one; see [`stakeholders.md`](stakeholders.md)). Its
+  **14 September 2026** position paper on the proposal itself sharpens this into a Chips-Act-specific
+  demand: an *ambitious, dedicated semiconductor funding envelope within the ECF* (covering strategic
+  projects, ESTIs, FOAK, leading-edge and mature/specialty technologies, demand instruments and
+  industrial deployment), ECF top-ups/synergies for IPCEIs, and **coordinated tax incentives** to
+  close Europe's manufacturing-cost gap with Asia — see [`stakeholders.md`](stakeholders.md).
 - **Open-foundry feasibility and state aid** ([strategic-projects-open-foundry](provisions/strategic-projects-open-foundry.md)) —
   Art 19 obliges the Commission to treat a Union-based open foundry "with the highest priority", but
   the regulation supplies status, not money: financing runs through the CCT/next-MFF instruments and
@@ -26,11 +31,19 @@
   state-aid-compatible funders would be — is the package's biggest open question. The widened
   first-of-a-kind scope (materials, equipment, PCBs, advanced packaging, manufacturing-centred
   design) also re-opens the 2023 debate on how far "first-of-a-kind" stretches Art 107 TFEU practice.
+  ESIA (14 Sep 2026 position) warns the <5nm open foundry **must not crowd out** other strategic
+  projects and that mature/specialty nodes, advanced packaging and power technologies should get
+  strategic-project status *on an equal footing* with leading edge; it also asks that the annex lists
+  of strategic-project areas be treated as tentative and updated with industry — see
+  [`stakeholders.md`](stakeholders.md).
 - **Permitting deadlines vs national planning autonomy** ([permitting](provisions/permitting.md)) —
   the hard ≤12-month cap, mandatory one stop shops and the "highest national significance" status
   cut into national/regional planning and environmental-procedure competences, and depend on two
   *pending* proposals (environmental-assessment speed-up; European Business Wallets). Expect
   delegations to soften deadlines into best-effort language, as in other recent permitting files.
+  Industry pushes the other way: ESIA (14 Sep 2026 position) calls for a **six-month** target and a
+  Europe-wide **digital one-stop shop**, and to *simplify* procedures rather than merely shorten the
+  formal timeline — see [`stakeholders.md`](stakeholders.md).
 - **Scope of crisis-stage powers** ([crisis-response](provisions/crisis-response.md)) — mandatory
   information requests backed by fines (Arts 41, 51), **priority-rated orders** overriding private
   contracts (Art 42) and Commission-led **common purchasing** (Art 43) were the most contested part
@@ -45,11 +58,19 @@
   act, with broad opt-outs (a >25% cost difference is presumed disproportionate). Analyses note the
   sovereignty/"domestic undertaking" preferences may come under pressure in negotiation — both from
   free-trade-minded delegations (WTO GPA compatibility) and from those wanting harder buy-European
-  duties.
+  duties. ESIA (14 Sep 2026 position) asks that industry get **co-decision/voting rights** over the
+  demand instruments (not top-down Commission/Chips-JU design), that **design porting** be a co-funded
+  demand-side instrument, and that procurement requirements stay technology-neutral and
+  administratively light — see [`stakeholders.md`](stakeholders.md).
 - **"Domestic undertaking" gatekeeping** — ESTI status, strategic projects and the B2B Platform are
   reserved to "domestic undertakings" (EU seat/ownership-and-control, extended to FTA/GPA partners,
   Art 2(31)); how this sits with non-EU manufacturers invested in the EU under the 2023 Act
-  (transitional Art 59) is a likely lobbying front.
+  (transitional Art 59) is a likely lobbying front. ESIA (14 Sep 2026 position) is already on it:
+  it asks that domestic status be assessed at the level of the **operating entity established in
+  Europe and its direct controlling undertaking** — not by looking through to an upstream,
+  non-operational ultimate shareholder — and that the B2B Platform be **open to all Europe-established
+  companies**, not only domestic undertakings (flagging a tension with the Art 14(6)(e) duty on
+  production-facility ESTIs to participate) — see [`stakeholders.md`](stakeholders.md).
 
 > Marked throughout as **expectation**: no Council or Parliament text exists yet (10 June 2026).
 > Stakeholder inputs feeding this page are sourced in [`stakeholders.md`](stakeholders.md).
