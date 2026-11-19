@@ -5,58 +5,58 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-11-18T13:34:12Z
+last_run: 2026-11-19T13:34:07Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:73a736094761ad36695fdd7b5c0870b7ce2f8b0d09fd7fb5714108121ec8936f"
-    last_seen_at: 2026-11-18T13:34:12Z   # OEIL HTTP 200 (123,188 B). Hash drifted vs 11-17, but LEGISLATIVE content UNCHANGED: Key events still only 03/06 proposal + 14/09 referral; status "Awaiting committee decision"; sole committee doc still the ITRE Committee draft report PE797.426 (09/11/2026, rapporteur SCHENK) already tracked in #30; rapporteurs/shadows/IMCO-SAUDARGAS/JURI-ABADÍA unchanged; 3 national-parliament contributions (CZ/IT/DE) unchanged. Drift source = rolling "Transparency" lobby-meeting rows (TORSELLI 11/11 INFN; SCHENK 04/11 x3 Bitkom/TSMC/Industrial Alliance; ABADÍA 04/11 ESIA). Transparency-register churn, not a 2026/0139 step — suppressed, hash rebaselined
+    last_seen_hash: "sha256:14022c0111b405cea7a6e68f6a49555bf09eb2a8b51bff7e4763da4164fc4e98"
+    last_seen_at: 2026-11-19T13:34:07Z   # OEIL HTTP 200 (123,229 B). Hash drifted vs 11-18, but LEGISLATIVE content UNCHANGED: Key events still only 03/06 proposal + 14/09 referral; status "Awaiting committee decision" (ITRE/10/05880); ITRE rapporteur SCHENK Oliver (EPP, apptd 31/08); 6 shadows unchanged (LÁSZLÓ PfE / TORSELLI ECR / GROOTHUIS Renew / SINKEVIČIUS Greens/EFA / SARAMO Left / SYPNIEWSKI ESN); opinions IMCO-SAUDARGAS + JURI-ABADÍA, BUDG no-opinion — unchanged; sole committee doc still draft report PE797.426 (09/11, already #30). Drift source = rolling "Transparency" lobby-meeting rows (SINKEVIČIUS 18/11 ASM International; TORSELLI 11/11 INFN; SCHENK 04/11 x3 Bitkom/TSMC/Industrial Alliance). Transparency-register churn, not a 2026/0139 step — suppressed, hash rebaselined
   T1-02:
     last_seen_hash: "sha256:314193a3667ba45f553b54841f331368c92f52f3589ea5fe0db5e794245f2bac"
-    last_seen_at: 2026-11-18T13:34:12Z   # Cellar object notice HTTP 200 for CELEX 52026PC0504, 6,692 B. Normalized hash IDENTICAL to last run — still only COM(2026) 504, no ST ref, no corrigendum, no new procedural step. No change
+    last_seen_at: 2026-11-19T13:34:07Z   # Cellar object notice HTTP 200 for CELEX 52026PC0504, 6,692 B. Normalized hash IDENTICAL to last run — still only COM(2026) 504, no ST ref, no corrigendum, no new procedural step. No change
   T1-03:
-    last_seen_hash: "sha256:81313f4c1f558f72e1ab5bd18913ae8d533b317d7120529e231ab58061ffefa8"
-    last_seen_at: 2026-11-18T13:34:12Z   # curl AWS-WAF 202; re-polled via fetch_blocked_doc.py browser tier, 110,098 B. Normalized hash drifted (browser-tier render churn) but HIS content SUBSTANTIVELY UNCHANGED: still only the 03/06/2026 Commission adoption of COM(2026) 504, status "Ongoing", same EuroVoc/legal-basis; 14/09 referral still not reflected here (HIS lag vs OEIL). No substantive change — suppressed, hash rebaselined
+    last_seen_hash: "sha256:ad813f246d8286b9cf3d6a4ca2245d2ee427ecbb5fbe1f44537ff75c8bedc8e7"
+    last_seen_at: 2026-11-19T13:34:07Z   # curl AWS-WAF 202; re-polled via fetch_blocked_doc.py browser tier, 110,430 B. Normalized hash drifted (browser-tier render churn) but HIS content SUBSTANTIVELY UNCHANGED: still only the 03/06/2026 Commission adoption of COM(2026) 504, status "Ongoing", same EuroVoc/legal-basis; 14/09 referral still not reflected here (HIS lag vs OEIL). No substantive change — suppressed, hash rebaselined
   T1-04:
     last_seen_hash: "sha256:bb938ca8313967697179dc4a29661ace92314fd88445e03a5574681c4ae6638c"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200, 1,392,570 B PDF — BYTE-IDENTICAL to all prior runs; pdftotext text hash matches stored. Same original 10094/26 COVER NOTE + proposal, COM(2026) 504, 2026/0139. No new ST number referenced. No change
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200, 1,392,570 B PDF — BYTE-IDENTICAL to all prior runs; pdftotext text hash matches stored. Same original 10094/26 COVER NOTE + proposal, COM(2026) 504, 2026/0139. No new ST number referenced. No change
   T1-05:
-    last_seen_hash: "sha256:179c59b7d6ae736c3bc07ae3e0e86d56d11b2bae04e0b6a31f078ee3ca32d35a"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (55,248 B). Hash drifted (digital-strategy widget churn); policy body text unchanged — still the 3 download redirects (Chips Act 2.0 proposal 940653, Tech Sovereignty Package 940648, CADA 940660), no corrigendum, no new Chips Act 2.0 document link. Suppressed, hash rebaselined
+    last_seen_hash: "sha256:274f8abdf6c6c923e51a5f305b26ecc009d6ef26a889594b638eca89b585c04b"
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (55,266 B). Hash drifted (digital-strategy widget churn); policy body text unchanged — still the 3 download redirects (Chips Act 2.0 proposal 940653, Tech Sovereignty Package 940648, CADA 940660), no corrigendum, no new Chips Act 2.0 document link. Suppressed, hash rebaselined
   T1-06:
-    last_seen_hash: "sha256:a184b6dd1b0104544113b549e7673729336af7485212f533e2ff54fa63c2d4ec"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (53,172 B). Hash drifted (related-content/widget churn); library still the same download object (doc 129104 proposal-chips-act-20 + Tech Sovereignty communication), no corrigendum, no new document. No substantive change — suppressed, hash rebaselined
+    last_seen_hash: "sha256:6d4a7ad498361af07c4562ae0d4ac19c14a53abedf98390a2ec294c65954c10e"
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (53,190 B). Hash drifted (related-content/widget churn); library still the same download object (proposal-chips-act-20 + Tech Sovereignty communication), no corrigendum, no new document. No substantive change — suppressed, hash rebaselined
   T1-07:
-    last_seen_hash: "sha256:94439af3fe80347cedfc68eb305a605e5a59ca00d6c12a92ff6b9553d187d2b0"
-    last_seen_at: 2026-11-18T13:34:12Z   # curl got AWS-WAF 202; fetch_blocked_doc.py browser tier succeeded (94,558 B). Hash drifted (WAF/render churn) but editorial "Information updated as of 25/10/2026" UNCHANGED. No substantive change — suppressed, hash rebaselined
+    last_seen_hash: "sha256:df7fdd6149d5cc2116e0294dc7cf4168fda866f860eafecb7c94b343adcfebf0"
+    last_seen_at: 2026-11-19T13:34:07Z   # curl got AWS-WAF 202; fetch_blocked_doc.py browser tier succeeded (94,558 B). Hash drifted (WAF/render churn) but editorial "Information updated as of 25/10/2026" UNCHANGED. No substantive change — suppressed, hash rebaselined
   T1-08:
-    last_seen_hash: "sha256:934041201c08697b4e0dc475e5b290720088fb0cd0921bacef08c7a9859c8c8a"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (80,716 B). Hash drifted; latest-news list is 2023-act/trade items only (Commission marks 20+ semiconductor investments; Semiconductor Alliance Tech Sovereignty mtg; €525M Chips Design Platform; €319M Austrian State aid; Second EU-Taiwan Semiconductor Dialogue; EVP Virkkunen G20) — none a 2026/0139 legislative step, no EESC/CoR opinion link surfaced. Out of scope — suppressed, hash rebaselined
+    last_seen_hash: "sha256:4000e633f743440cc8408341daeccbea1ad1d46d88cb2aa7fe63bd85df296f74"
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (80,734 B). Hash drifted; Latest-News list is 2023-act/trade items only (17/11 Commission marks 20+ semiconductor investments; 05/11 Semiconductor Alliance Tech Sovereignty mtg; 04/11 €525M chip design) — all already noted, none a 2026/0139 legislative step, no EESC/CoR opinion link surfaced. Out of scope — suppressed, hash rebaselined
   T1-09:
-    last_seen_hash: "sha256:8d0251ce39696fcf320119cdf0eca85735619294681a60ea2ce01465ef04d44a"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (64,340 B). RSS normalized hash IDENTICAL to last run (dossier 22112) — no new item; BNC-fiche on Chips Act 2.0 STILL not appeared. No change
+    last_seen_hash: "sha256:9d6cfeefa590d424f1ed644bed6745fe4db5cffe3602da4fdb995f32f8da911e"
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (63,327 B). RSS drifted (dossier 22112) — new daily items 18-19/11 are out of scope (fiche Regulatory Sandboxes, etc.); only keyword match is the standing 05/08 attachment "Public consultation of the review of the Chips Act" (unchanged, already in baseline). BNC-fiche on Chips Act 2.0 STILL not appeared. No in-scope hit — suppressed, hash rebaselined
   T1-10:
     last_seen_hash: "sha256:17739115af2fec63a154e3216f119d6c9d9881953ebd2fb509b4afc8470fdc94"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (68,587 B). RSS normalized hash IDENTICAL to last run (dossier 21501-33 Telecomraad) — no new item, no chips/semiconductor. No change
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (68,587 B). RSS normalized hash IDENTICAL to last run (dossier 21501-33 Telecomraad) — no new item, no chips/semiconductor. No change
   T1-11:
-    last_seen_hash: "sha256:5a5f179086e933004926f9534a7ebcc27c4a45caafb8084db425f350adb90be7"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (97,337 B). Hash drifted; new article titles (veiliger dataonderzoek, archiefbeheer, AI-kabinet, EU KIDS Act, cybercrisis) carry ZERO chips/halfgeleider/semicon/Chips Act/soeverein/ASML/NXP/foundry keyword. No in-scope hit — suppressed, hash rebaselined
+    last_seen_hash: "sha256:19658df9a6ad58bbd4711db22b06543bc51c3b790c288518fe4d06bd8ef5834c"
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (98,319 B). Hash drifted; article titles (AI cyberincidenten, Denk vooruit, digitaal overbrengen, AI-kabinet, IAMA/DPIA, Algoritmekader, dataonderzoek, cybercrisis, archiefbeheer, EU KIDS Act) carry ZERO chips/halfgeleider/semicon/Chips Act/soeverein/ASML/NXP/foundry keyword. No in-scope hit — suppressed, hash rebaselined
   T1-12:
     last_seen_hash: "sha256:8681912e932988dc3048d7acd3aa08f042f1f6ca1248a2162549cce8ab905a93"
-    last_seen_at: 2026-11-18T13:34:12Z   # HTTP 200 (10,454 B). Kamervragen RSS normalized hash IDENTICAL to last run — no new in-scope Kamervraag on the EU Chips Act 2.0. No change
+    last_seen_at: 2026-11-19T13:34:07Z   # HTTP 200 (10,454 B). Kamervragen RSS normalized hash IDENTICAL to last run — no new in-scope Kamervraag on the EU Chips Act 2.0. No change
   T1-13:
     seen_refs: []
-    last_seen_at: 2026-11-18T13:34:12Z   # ep_committee_docs.py ITRE exit 2 "no es_document blocks found (page layout changed?)" — parser layout regression PERSISTS (since 08-18). First in-scope ITRE doc (draft report PE797.426, 09/11/2026) still surfaced only via T1-01 OEIL (#30), not here. Already tracked in weekly health #29 (updated 2026-11-17). seen_refs kept []
+    last_seen_at: 2026-11-19T13:34:07Z   # ep_committee_docs.py ITRE exit 2 "no es_document blocks found (page layout changed?)" — parser layout regression PERSISTS (since 08-18). First in-scope ITRE doc (draft report PE797.426, 09/11/2026) still surfaced only via T1-01 OEIL (#30), not here. Already tracked in weekly health #29. seen_refs kept []
   T2-01:
-    last_seen_hash: "sha256:58a1982484834ba628490b5e06d062f06ccd6431251b339c55d0fc8e4ee5fa59"
-    last_seen_at: 2026-11-18T13:34:12Z   # ESIA news HTTP 200 (76,255 B). Hash drifted by ~17 B vs 11-17; news set UNCHANGED — newest item still 5 Nov MFF 2028-2034 microelectronics paper (commented #36), then 2 Nov Q3 market, 15 Oct export-control, 14 Sep Chips Act 2.0 demand/budget. No new position paper. No change in substance — suppressed, hash rebaselined
+    last_seen_hash: "sha256:2a4bcbc3a69f902788e2ada6c7c12236baf51a7be3f8188fbccf5565cb8a6ba1"
+    last_seen_at: 2026-11-19T13:34:07Z   # ESIA news HTTP 200 (76,235 B). Hash drifted ~20 B vs 11-18; news set UNCHANGED — newest item still 5 Nov MFF 2028-2034 microelectronics paper (commented #36), then Chips Act 2.0 demand/budget (14 Sep), Competitiveness Fund call, WSC statements. No new position paper. No change in substance — suppressed, hash rebaselined
   T2-02:
-    last_seen_hash: "sha256:81bc67db56a1a2b203002f1f2597ac29d4cf1a267f01c6cad6d5fcadf3f4df24"
-    last_seen_at: 2026-11-18T13:34:12Z   # bits-chips homepage HTTP 200 (213,193 B). Hash drifted (article-loop reorder). Headlines are company/industry news (Eindhoven/Munich/Dresden startup network, Nexperia/Wingtech disputes, Dutch €200M scale-up fund, Axelera fabless association, Marvell/Lumentum, ASML/Nvidia); "EU mobilizes €525M to boost chip design" = Chips Design Platform (2023-act, already noted). No "Chips Act" legislation / 2026/0139 / Council / EP step. No in-scope hit — suppressed, hash rebaselined
+    last_seen_hash: "sha256:33d8690d129fa9ee97764db16541f964541b8795cf1c941a2da24ef1851703b3"
+    last_seen_at: 2026-11-19T13:34:07Z   # bits-chips homepage HTTP 200 (213,009 B). Hash drifted (article-loop reorder). New headlines are company/industry/defense news (Dutch €1.6B defense industry, Diamond Foundry 200mm diamond chip-cooling, Eindhoven/Munich/Dresden startup network, Nexperia/Wingtech disputes, Quix photonics, €200M scale-up fund); "EU mobilizes €525M to boost chip design" = Chips Design Platform (2023-act, already noted). No "Chips Act" legislation / 2026/0139 / Council / EP step. No in-scope hit — suppressed, hash rebaselined
   T2-03:
     last_seen_hash: "sha256:36016ba05f1fd12acd53a726f72990da1b097cec0481bb51c9a37fa0685ba15e"
     last_seen_at: 2026-07-16T12:37:24Z   # AUTO-PAUSED 2026-07-31 (Wordfence HTTP 503, >14 consecutive failing days, last good 2026-07-16). Not polled this run. Resume only after manual intervention. Health #29/#25/#14
     paused: true
     paused_at: 2026-07-31T12:33:42Z
   T2-04:
-    last_seen_hash: "sha256:97912eae80d7ad109f1a6751de2338764351f1f37af56c122a64d635d531990b"
-    last_seen_at: 2026-11-18T13:34:12Z   # eunews.it RSS HTTP 200 (61,349 B). Hash drifted (feed rotation); ZERO keyword match this run (climate/antibiotic-resistant bacteria, EU "advanced materials" research-industry gap, M5S Ukraine database, eurozone inflation 4%, Italy science-degree shortfall) — no Chips Act 2.0 / COMPET step on 2026/0139, no semiconductor relevance. Out of scope — suppressed, hash rebaselined
+    last_seen_hash: "sha256:bdb21ab8240d507626a5a03315d8d60b1d6ada6d60309fec695d86fca42a2a25"
+    last_seen_at: 2026-11-19T13:34:07Z   # eunews.it RSS HTTP 200 (54,258 B). Hash drifted (feed rotation); ZERO keyword match this run (IT infringement procedures, gender gap, travel modes, Eurogroup 2027 agenda, social-network data ruling, methane obligations delay, Augias obituary, Jordan partnership, oncology hackers, railways) — no Chips Act 2.0 / COMPET step on 2026/0139, no semiconductor relevance. Out of scope — suppressed, hash rebaselined
